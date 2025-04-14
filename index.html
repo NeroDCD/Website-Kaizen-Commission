@@ -5,26 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Kaizen Circuit</title>
     <link rel="icon" href="Assets/kaizen-round-logo.png" type="image/png" />
+    <!-- BOOTSTRAP CDN -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+
+    <!-- FONT AWESOME FOR ICONS-->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- NAVIGATION BAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
       <div class="container-fluid px-5">
-        <a class="navbar-brand d-flex align-items-center" href="#">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
           <img src="Assets/kaizen-round-logo.png" alt="Logo" class="logo" />
           <span class="logo-text">KAIZEN</span>
         </a>
@@ -41,33 +42,35 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarContent">
           <ul
-            class="navbar-nav mx-lg-auto text-center my-3 my-lg-0"
-            style="gap: 32px"
+            class="navbar-nav mx-lg-auto text-center my-3 my-lg-0 custom-navbar-gap"
           >
-            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
             <li class="nav-item">
-              <a class="nav-link" href="#products">Products</a>
+              <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="product.html">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#blogs">Blogs</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="blogs.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
-          <div class="d-flex justify-content-center mt-3 mt-lg-0">
-            <!-- User Icon -->
-            <button class="btn btn-glass me-2">
-              <i class="fa fa-user"></i>
-            </button>
 
-            <!-- Cart Icon -->
-            <button class="btn btn-glass">
+          <div class="d-flex justify-content-center mt-3 mt-lg-0">
+            <!-- Login Button -->
+            <a href="login.html" class="btn btn-glass me-2">
+              <i class="fa fa-user"></i>
+            </a>
+
+            <!-- Cart Icon Button -->
+            <a href="AddToCart.html" class="btn btn-glass">
               <i class="fa fa-shopping-cart"></i>
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -77,20 +80,18 @@
     <section class="hero">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
-            <div class="small-text">
+          <div class="col-12 col-lg-8">
+            <div class="small-text" data-aos="fade" data-aos-duration="700">
               <span class="emoji">⚡</span>
               <span class="gradient-text">Ready, Set, Build!</span>
             </div>
-            <h1>Kaizen Circuit</h1>
-            <p class="lead">
+            <h1 data-aos="fade" data-aos-duration="700">Kaizen Circuit</h1>
+            <p class="lead" data-aos="fade" data-aos-duration="700">
               At Kaizen Circuit, we're more than just a Mini 4WD hobby shop —
+              <br />
               we're a hub for racers, builders, and dreamers.
             </p>
             <a href="#" class="kzn-btn-cta">Start Your Build Now</a>
-          </div>
-          <div class="col-lg-6">
-            <!-- Empty or Image -->
           </div>
         </div>
       </div>
@@ -99,13 +100,23 @@
     <!-- KAIZEN STARTER KIT SECTION -->
     <section id="products" class="py-5">
       <div class="container">
-        <div class="d-flex justify-content-between align-items-center mb-4">
+        <!-- Section Header -->
+        <div
+          class="d-flex justify-content-between align-items-center mb-4"
+          data-aos="fade"
+          data-aos-duration="2000"
+        >
           <h2>Kaizen Starter Kit</h2>
           <a href="#" class="btn kzn-btn-secondary">See More</a>
         </div>
 
+        <!-- Desktop Grid Layout -->
         <div class="row d-none d-md-flex">
-          <div class="col-6 col-sm-6 col-md-3 mb-4">
+          <div
+            class="col-6 col-sm-6 col-md-3 mb-4"
+            data-aos="fade"
+            data-aos-duration="1000"
+          >
             <div class="card position-relative h-100">
               <img
                 src="https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/74057/74057_1.jpg"
@@ -120,13 +131,20 @@
                 <h5 class="card-title mb-1 small-title">
                   PORTABLE TOOL SET (for DRILLING)
                 </h5>
-                <p class="fw-bold mb-2">₱4,823.40</p>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">4,823.40</span>
+                </p>
                 <a href="#" class="btn kzn-btn-black mt-auto">Buy Now</a>
               </div>
             </div>
           </div>
 
-          <div class="col-6 col-sm-6 col-md-3 mb-4">
+          <div
+            class="col-6 col-sm-6 col-md-3 mb-4"
+            data-aos="fade"
+            data-aos-duration="1200"
+          >
             <div class="card position-relative h-100">
               <img
                 src="https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/74146/74146_1.jpg"
@@ -141,13 +159,20 @@
                 <h5 class="card-title mb-1 small-title">
                   NEEDLE NOSE W/CUTTER II
                 </h5>
-                <p class="fw-bold mb-2">₱4,060.00</p>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">4,060.00</span>
+                </p>
                 <a href="#" class="btn kzn-btn-black mt-auto">Buy Now</a>
               </div>
             </div>
           </div>
 
-          <div class="col-6 col-sm-6 col-md-3 mb-4">
+          <div
+            class="col-6 col-sm-6 col-md-3 mb-4"
+            data-aos="fade"
+            data-aos-duration="1300"
+          >
             <div class="card position-relative h-100">
               <img
                 src="https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/6/69943/69943_1.jpg"
@@ -162,13 +187,20 @@
                 <h5 class="card-title mb-1 small-title">
                   MODELER'S KNIFE (BLUE)
                 </h5>
-                <p class="fw-bold mb-2">₱6,176.80</p>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">6,176.80</span>
+                </p>
                 <a href="#" class="btn kzn-btn-black mt-auto">Buy Now</a>
               </div>
             </div>
           </div>
 
-          <div class="col-6 col-sm-6 col-md-3 mb-4">
+          <div
+            class="col-6 col-sm-6 col-md-3 mb-4"
+            data-aos="fade"
+            data-aos-duration="1600"
+          >
             <div class="card position-relative h-100">
               <img
                 src="https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/74152/74152_1.jpg"
@@ -183,17 +215,22 @@
                 <h5 class="card-title mb-1 small-title">
                   RATCHETING SCREWDRIVER PRO
                 </h5>
-                <p class="fw-bold mb-2">₱5,198.00</p>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">5,198.00</span>
+                </p>
                 <a href="#" class="btn kzn-btn-black mt-auto">Buy Now</a>
               </div>
             </div>
           </div>
         </div>
 
+        <!-- Mobile Carousel -->
         <div
           id="productCarousel"
           class="carousel slide d-md-none"
           data-bs-ride="false"
+          data-aos="fade"
         >
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -213,7 +250,10 @@
                       <h5 class="card-title mb-1 small-title">
                         PORTABLE TOOL SET (for DRILLING)
                       </h5>
-                      <p class="fw-bold mb-2">₱4,823.40</p>
+                      <p class="fw-bold mb-2">
+                        <span class="currency">&#8369;</span
+                        ><span class="price">4,823.40</span>
+                      </p>
                       <a href="#" class="btn kzn-btn-black mt-auto">Buy Now</a>
                     </div>
                   </div>
@@ -233,7 +273,10 @@
                       <h5 class="card-title mb-1 small-title">
                         NEEDLE NOSE W/CUTTER II
                       </h5>
-                      <p class="fw-bold mb-2">₱4,060.00</p>
+                      <p class="fw-bold mb-2">
+                        <span class="currency">&#8369;</span
+                        ><span class="price">4,060.00</span>
+                      </p>
                       <a href="#" class="btn kzn-btn-black mt-auto">Buy Now</a>
                     </div>
                   </div>
@@ -258,7 +301,10 @@
                       <h5 class="card-title mb-1 small-title">
                         MODELER'S KNIFE (BLUE)
                       </h5>
-                      <p class="fw-bold mb-2">₱6,176.80</p>
+                      <p class="fw-bold mb-2">
+                        <span class="currency">&#8369;</span
+                        ><span class="price">6,176.80</span>
+                      </p>
                       <a href="#" class="btn kzn-btn-black mt-auto">Buy Now</a>
                     </div>
                   </div>
@@ -278,7 +324,10 @@
                       <h5 class="card-title mb-1 small-title">
                         RATCHETING SCREWDRIVER PRO
                       </h5>
-                      <p class="fw-bold mb-2">₱5,198.00</p>
+                      <p class="fw-bold mb-2">
+                        <span class="currency">&#8369;</span
+                        ><span class="price">5,198.00</span>
+                      </p>
                       <a href="#" class="btn kzn-btn-black mt-auto">Buy Now</a>
                     </div>
                   </div>
@@ -287,6 +336,7 @@
             </div>
           </div>
 
+          <!-- Carousel Controls -->
           <button
             class="carousel-control-prev"
             type="button"
@@ -313,13 +363,17 @@
     <section id="featured" class="py-5">
       <div class="container">
         <!-- Section Header -->
-        <div class="d-flex justify-content-between align-items-center mb-4">
-          <h2>Hot Deals, Cool Builds</h2>
+        <div
+          class="d-flex justify-content-between align-items-center mb-4"
+          data-aos="fade"
+          data-aos-duration="2000"
+        >
+          <h2>Hot Deals</h2>
           <a href="#" class="btn kzn-btn-secondary">See More</a>
         </div>
 
         <!-- Product Grid -->
-        <div class="row">
+        <div class="row" data-aos="fade">
           <!-- Product 1 -->
           <div class="col-6 col-sm-6 col-md-3 mb-4">
             <div class="card position-relative h-100">
@@ -333,8 +387,14 @@
                 alt="Product 1"
               />
               <div class="card-body d-flex flex-column">
-                <p class="card-text small text-muted mb-2">Product 1</p>
-                <p class="fw-bold mb-2">₱3,987.15</p>
+                <h5 class="card-title fw-bold mb-1">Shadow Blitzer</h5>
+                <p class="card-text small text-muted mb-2">
+                  <strong>KIT-004</strong>
+                </p>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">3,987.15</span>
+                </p>
                 <a href="#" class="btn kzn-btn-black mt-auto">Buy Now</a>
               </div>
             </div>
@@ -353,8 +413,14 @@
                 alt="Product 2"
               />
               <div class="card-body d-flex flex-column">
-                <p class="card-text small text-muted mb-2">Product 2</p>
-                <p class="fw-bold mb-2">₱4,844.43</p>
+                <h5 class="card-title fw-bold mb-1">Crimson Stalker</h5>
+                <p class="card-text small text-muted mb-2">
+                  <strong>FSDSS-548</strong>
+                </p>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">4,844.43</span>
+                </p>
                 <a href="#" class="btn kzn-btn-black mt-auto">Buy Now</a>
               </div>
             </div>
@@ -373,8 +439,14 @@
                 alt="Product 3"
               />
               <div class="card-body d-flex flex-column">
-                <p class="card-text small text-muted mb-2">Product 3</p>
-                <p class="fw-bold mb-2">₱3,334.50</p>
+                <h5 class="card-title fw-bold mb-1">Aero Drifter</h5>
+                <p class="card-text small text-muted mb-2">
+                  <strong>DVUMA-130</strong>
+                </p>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">3,334.50</span>
+                </p>
                 <a href="#" class="btn kzn-btn-black mt-auto">Buy Now</a>
               </div>
             </div>
@@ -393,8 +465,14 @@
                 alt="Product 4"
               />
               <div class="card-body d-flex flex-column">
-                <p class="card-text small text-muted mb-2">Product 4</p>
-                <p class="fw-bold mb-2">₱4,234.25</p>
+                <h5 class="card-title fw-bold mb-1">Vortex Phantom</h5>
+                <p class="card-text small text-muted mb-2">
+                  <strong>DGEN010</strong>
+                </p>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">4,234.25</span>
+                </p>
                 <a href="#" class="btn kzn-btn-black mt-auto">Buy Now</a>
               </div>
             </div>
@@ -413,8 +491,14 @@
                 alt="Product 5"
               />
               <div class="card-body d-flex flex-column">
-                <p class="card-text small text-muted mb-2">Product 5</p>
-                <p class="fw-bold mb-2">₱5,266.80</p>
+                <h5 class="card-title fw-bold mb-1">Uncensored Reaper</h5>
+                <p class="card-text small text-muted mb-2">
+                  <strong>APGH-033</strong>
+                </p>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">5,266.80</span>
+                </p>
                 <a href="#" class="btn kzn-btn-black mt-auto">Buy Now</a>
               </div>
             </div>
@@ -433,8 +517,14 @@
                 alt="Product 6"
               />
               <div class="card-body d-flex flex-column">
-                <p class="card-text small text-muted mb-2">Product 6</p>
-                <p class="fw-bold mb-2">₱4,503.00</p>
+                <h5 class="card-title fw-bold mb-1">Stormbreaker Elite</h5>
+                <p class="card-text small text-muted mb-2">
+                  <strong>SSNI-411</strong>
+                </p>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">4,503.00</span>
+                </p>
                 <a href="#" class="btn kzn-btn-black mt-auto">Buy Now</a>
               </div>
             </div>
@@ -453,8 +543,14 @@
                 alt="Product 7"
               />
               <div class="card-body d-flex flex-column">
-                <p class="card-text small text-muted mb-2">Product 7</p>
-                <p class="fw-bold mb-2">₱3,921.60</p>
+                <h5 class="card-title fw-bold mb-1">Tempest Stryker</h5>
+                <p class="card-text small text-muted mb-2">
+                  <strong>BLK-510</strong>
+                </p>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">3,921.60</span>
+                </p>
                 <a href="#" class="btn kzn-btn-black mt-auto">Buy Now</a>
               </div>
             </div>
@@ -473,8 +569,14 @@
                 alt="Product 8"
               />
               <div class="card-body d-flex flex-column">
-                <p class="card-text small text-muted mb-2">Product 8</p>
-                <p class="fw-bold mb-2">₱4,908.70</p>
+                <h5 class="card-title fw-bold mb-1">Nightmare Warden</h5>
+                <p class="card-text small text-muted mb-2">
+                  <strong>VEMA-164</strong>
+                </p>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">4,908.70</span>
+                </p>
                 <a href="#" class="btn kzn-btn-black mt-auto">Buy Now</a>
               </div>
             </div>
@@ -488,7 +590,7 @@
       <div class="container h-100">
         <div class="row h-100 align-items-center">
           <!-- Left Side: CTA Text -->
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade" data-aos-duration="2000">
             <div class="cta-text">
               <h1>Unleash Your Speed at Kaizen Circuit</h1>
               <p class="lead">
@@ -500,7 +602,7 @@
           </div>
 
           <!-- Right Side: Image -->
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="zoom-in-left">
             <img
               src="Assets/cta-image-4wd.png"
               alt="Kaizen Racing"
@@ -513,10 +615,10 @@
 
     <!-- BLOGS SECTION -->
     <section id="blogs" class="py-5">
-      <div class="container">
+      <div class="container" data-aos="fade" data-aos-duration="700">
         <div class="d-flex justify-content-between align-items-center mb-4">
           <h2>Latest Blogs</h2>
-          <a href="#" class="btn kzn-btn-secondary">See More</a>
+          <a href="blogs.html" class="btn kzn-btn-secondary">See More</a>
         </div>
 
         <!-- Desktop View of Blogs (Grid Layout) -->
@@ -524,8 +626,7 @@
           <!-- Blog Item 1 -->
           <div class="col-6 col-sm-6 col-md-3 mb-4">
             <a
-              href="#"
-              target="_blank"
+              href="blogs.html"
               class="card position-relative h-100 text-decoration-none"
             >
               <img
@@ -549,8 +650,7 @@
           <!-- Blog Item 2 -->
           <div class="col-6 col-sm-6 col-md-3 mb-4">
             <a
-              href="#"
-              target="_blank"
+              href="blogs.html"
               class="card position-relative h-100 text-decoration-none"
             >
               <img
@@ -573,12 +673,11 @@
           <!-- Blog Item 3 -->
           <div class="col-6 col-sm-6 col-md-3 mb-4">
             <a
-              href="#"
-              target="_blank"
+              href="blogs.html"
               class="card position-relative h-100 text-decoration-none"
             >
               <img
-                src="https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/6/61127/61127_4c14.jpg"
+                src="https://cinemabravo.com/wp-content/uploads/2024/11/the-brickyard-tamiya.png?w=1024"
                 class="card-img-top"
                 alt="Tamiya News 3"
               />
@@ -588,7 +687,7 @@
                   >04/11/2025</span
                 >
                 <h5 class="card-title mb-1 small-title">
-                  1/48 SCALE LOCKHEED MARTIN® F-35®C LIGHTNING II®
+                  Tamiya Mini 4WD is hot in the Philippines
                 </h5>
               </div>
             </a>
@@ -597,8 +696,7 @@
           <!-- Blog Item 4 -->
           <div class="col-6 col-sm-6 col-md-3 mb-4">
             <a
-              href="#"
-              target="_blank"
+              href="blogs.html"
               class="card position-relative h-100 text-decoration-none"
             >
               <img
@@ -632,11 +730,10 @@
                 <div class="col-6">
                   <a
                     href="#"
-                    target="_blank"
                     class="card position-relative h-100 text-decoration-none"
                   >
                     <img
-                      src="https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/74057/74057_1.jpg"
+                      src="https://www.tamiya.com/cms/images/stories/newstopics/2025/01/15spiel/top_955_500.jpg"
                       class="card-img-top"
                       alt="Tamiya News 1"
                     />
@@ -654,7 +751,6 @@
                 <div class="col-6">
                   <a
                     href="#"
-                    target="_blank"
                     class="card position-relative h-100 text-decoration-none"
                   >
                     <img
@@ -682,11 +778,10 @@
                 <div class="col-6">
                   <a
                     href="#"
-                    target="_blank"
                     class="card position-relative h-100 text-decoration-none"
                   >
                     <img
-                      src="https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/6/61127/61127_4c14.jpg"
+                      src="https://cinemabravo.com/wp-content/uploads/2024/11/the-brickyard-tamiya.png?w=1024"
                       class="card-img-top"
                       alt="Tamiya News 3"
                     />
@@ -696,19 +791,19 @@
                         >04/11/2025</span
                       >
                       <h5 class="card-title mb-1 small-title">
-                        1/48 SCALE LOCKHEED MARTIN® F-35®C LIGHTNING II®
+                        Tamiya Mini 4WD is hot in the Philippines
                       </h5>
                     </div>
                   </a>
                 </div>
+
                 <div class="col-6">
                   <a
                     href="#"
-                    target="_blank"
                     class="card position-relative h-100 text-decoration-none"
                   >
                     <img
-                      src="https://www.tamiya.com/cms/images/stories/newstopics/2025/01/15spiel/messe2025_955_500_04.jpg"
+                      src="https://cinemabravo.com/wp-content/uploads/2024/11/the-brickyard-tamiya.png?w=1024"
                       class="card-img-top"
                       alt="Tamiya News 4"
                     />
@@ -822,6 +917,11 @@
                 </div>
               </div>
             </div>
+            <!-- Copyright -->
+            <div class="mt-4 small text-opacity">
+              &copy; <span id="year"></span> Kaizen Circuit. All rights
+              reserved.
+            </div>
           </div>
 
           <!-- Footer Links Column -->
@@ -831,11 +931,11 @@
               <div class="col-12 col-md-4">
                 <h6 class="footer-heading">Quick Links</h6>
                 <ul class="footer-links">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Products</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Contact</a></li>
-                  <li><a href="#">News</a></li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="blogs.html">Blogs</a></li>
                 </ul>
               </div>
 
@@ -843,11 +943,11 @@
               <div class="col-12 col-md-4">
                 <h6 class="footer-heading">Products</h6>
                 <ul class="footer-links">
-                  <li><a href="#">Tools & Paints</a></li>
-                  <li><a href="#">Mini 4WD</a></li>
-                  <li><a href="#">R/C Models</a></li>
-                  <li><a href="#">Decoration</a></li>
-                  <li><a href="#">All categories</a></li>
+                  <li><a href="UnderConstruction.html">Tools & Paints</a></li>
+                  <li><a href="UnderConstruction.html">Mini 4WD</a></li>
+                  <li><a href="UnderConstruction.html">R/C Models</a></li>
+                  <li><a href="UnderConstruction.html">Decoration</a></li>
+                  <li><a href="UnderConstruction.html">All categories</a></li>
                 </ul>
               </div>
 
@@ -855,9 +955,11 @@
               <div class="col-12 col-md-4">
                 <h6 class="footer-heading">Legal</h6>
                 <ul class="footer-links">
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Terms of Service</a></li>
-                  <li><a href="#">Returns & Refunds</a></li>
+                  <li><a href="UnderConstruction.html">Privacy Policy</a></li>
+                  <li><a href="UnderConstruction.html">Terms of Service</a></li>
+                  <li>
+                    <a href="UnderConstruction.html">Returns & Refunds</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -866,23 +968,12 @@
       </div>
     </footer>
 
-    <script>
-      //  Dynamic Year
-      document.getElementById("year").textContent = new Date().getFullYear();
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-      // WhatsApp Button – Copy to Clipboard
-      function copyWhatsAppNumber(e, el) {
-        e.preventDefault();
-        const number = "+63 912 345 6789";
-        navigator.clipboard.writeText(number).then(() => {
-          el.parentElement.classList.add("show-tooltip");
-          setTimeout(() => {
-            el.parentElement.classList.remove("show-tooltip");
-          }, 2000);
-        });
-      }
-    </script>
-
+    <!-- Bootstrap Bundle JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
