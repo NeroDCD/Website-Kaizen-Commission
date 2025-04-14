@@ -566,7 +566,7 @@ body {
 }
 .about-section img {
   width: 100%;
-  height: auto;
+  height: 400px;
   object-fit: cover;
 }
 
@@ -701,6 +701,7 @@ body {
   background-color: var(--black);
   color: var(--white);
 }
+
 /* Optional: Styling for the iframe container */
 .google-map {
   position: relative;
@@ -713,14 +714,36 @@ body {
   width: 100%;
   height: 400px;
   border-radius: 8px;
+  display: block;
 }
 
+/* Optional: Map Overlay */
+/* .map-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 400px;  
+  border-radius: 8px;
+  background: var(--overlay-black-50, rgba(0, 0, 0, 0.5));
+  z-index: 1;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.google-map:hover .map-overlay {
+  opacity: 0;
+} */
+
+
 /* Testimonial Card Styling */
+
 /* Testimonial Row Styling (exclusive for testimonials) */
 .testimonial-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; /* Optional: Adjust spacing between cards */
+  gap: 20px; 
 }
 
 /* Testimonial Card Styling */
