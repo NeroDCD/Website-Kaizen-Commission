@@ -89,6 +89,17 @@ body {
   font-weight: var(--font-weight-semibold);
 }
 
+.kzn-section-heading {
+  font-family: var(--font-main);
+  font-size: 2rem;
+  color: var(--black);
+}
+.kzn-info-text {
+  font-family: var(--font-main);
+  font-size: 1rem;
+  color: var(--black);
+}
+
 /* Forms */
 .kzn-input {
   width: 100%;
@@ -542,6 +553,33 @@ body {
 
 /* ========== END OF HOMEPAGE ========== */
 
+/* ========== ABOUT PAGE ========== */
+
+.about-section {
+  background-color: var(--white);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.about-text {
+  font-family: var(--font-main);
+  font-size: var(--font-size-paragraph);
+  color: var(--black);
+  font-weight: var(--font-weight-regular);
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.about-section img {
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 10px 25px var(--soft-shadow);
+}
+
+/* ========== END OF ABOUT ========== */
+
 /* ========== BLOG PAGE ========== */
 
 /* Pagination Container */
@@ -592,18 +630,6 @@ body {
 /* ========== END OF BLOG PAGE ========== */
 
 /* ========== CONTACT PAGE ========== */
-.contact-heading {
-  font-family: var(--font-main);
-  font-size: 2rem; /* or adjust the size as needed */
-  color: var(--black);
-}
-
-.contact-info-text {
-  font-family: var(--font-main);
-  font-size: 16px;
-  color: var(--black);
-}
-
 .contact-form .form-label {
   font-family: var(--font-main);
   font-size: 16px;
