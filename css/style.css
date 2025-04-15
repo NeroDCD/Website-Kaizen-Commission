@@ -41,9 +41,11 @@
   /* Buttons */
   --btn-size: 40px;
   --btn-font-size: 14px;
+  --btn-font-size-mobile: 12px;
   --btn-radius-round: 50%;
   --btn-radius: 4px;
   --btn-padding: 12px 24px;
+  --btn-padding-mobile: 6px 12px;
 
   /* Effects */
   --transition: 0.3s;
@@ -359,24 +361,30 @@ body {
 /* ========== End Hero Section ========== */
 
 /* ========== Start Cards / Carousel ========== */
-.currency {
+
+.currency, .price{
   font-family: var(--font-secondary);
-  font-weight: var(--font-weight-regular);
+  font-weight: var(--font-weight-semibold);
   font-size: var(--font-size-paragraph);
-  margin-right: 2px;
   color: var(--black);
+}
+.currency {
+  margin-right: 2px;
 }
 
-.price {
-  font-family: var(--font-secondary);
-  font-weight: var(--font-weight-regular);
-  font-size: var(--font-size-paragraph);
-  color: var(--black);
-}
+
 
 .small-title {
   font-size: var(--font-size-small);
   font-weight: var(--font-weight-light);
+}
+.card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--gray-disabled);
+  font-size: var(--font-size-card-title);
+  font-weight: var(--font-weight-regular);
 }
 .card {
   overflow: hidden;
@@ -1198,6 +1206,13 @@ body {
 
   .google-btn {
     font-size: 0.9rem;
+  }
+ 
+  .kzn-btn-secondary,
+  .kzn-btn-black {
+    padding: var(--btn-padding-mobile);
+    font-size: var(--btn-font-size-mobile);
+    border-radius: var(--btn-radius);
   }
 }
 /* ========== End Media Queries ========== */
