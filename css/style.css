@@ -135,6 +135,9 @@ body {
   border: none;
   transition: transform var(--transition), background var(--transition);
 }
+.btn-glass.active {
+  background: var(--red);
+}
 
 .btn-glass:hover {
   transform: scale(1.1);
@@ -736,14 +739,13 @@ body {
   opacity: 0;
 } */
 
-
 /* Testimonial Card Styling */
 
 /* Testimonial Row Styling (exclusive for testimonials) */
 .testimonial-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; 
+  gap: 20px;
 }
 
 /* Testimonial Card Styling */
@@ -829,6 +831,106 @@ body {
 }
 
 /* ========== END OF CONTACT PAGE ========== */
+
+/* ========== LOGIN PAGE ========== */
+.login-card {
+  background-color: var(--white);
+  border-radius: 12px;
+  border: 1px solid var(--gray-border);
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 20px var(--soft-shadow);
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 38px;
+  background: none;
+  border: none;
+  color: var(--gray);
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0;
+}
+
+.login-title {
+  text-align: center;
+  font-family: var(--font-main);
+  font-size: 24px;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 2.5rem;
+  background: linear-gradient(to right, var(--black), var(--gray-disabled));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.create-account {
+  font-size: var(--font-size-small);
+  color: var(--black-50);
+}
+
+.create-account a {
+  color: var(--black);
+  font-weight: var(--font-weight-semibold);
+  text-decoration: none;
+}
+
+.create-account a:hover {
+  color: var(--red);
+  cursor: pointer;
+}
+
+.divider {
+  text-align: center;
+  margin: 1.5rem 0;
+  position: relative;
+  font-size: var(--font-size-small);
+  color: var(--gray);
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background-color: var(--gray-border);
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--white);
+  border: 1px solid var(--gray-border);
+  padding: 0.75rem;
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--btn-font-size);
+  transition: var(--transition);
+  border-radius: var(--btn-radius);
+}
+.google-btn:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.google-btn img {
+  width: 20px;
+  height: 20px;
+}
+/* ========== END OF LOGIN PAGE ========== */
 
 /* ========== Start of Media Queries ========== */
 
@@ -1011,6 +1113,28 @@ body {
 
   .contact-form {
     margin-top: 48px;
+  }
+  .login-card {
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+    border: none;
+  }
+
+  .login-title {
+    font-size: 24px;
+  }
+
+  .toggle-password {
+    right: 8px;
+  }
+
+  .google-btn {
+    font-size: 14px;
+  }
+  .create-account-section {
+    padding-top: 42px;
   }
 }
 /* ========== End Media Queries ========== */

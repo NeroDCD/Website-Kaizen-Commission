@@ -5,7 +5,36 @@ AOS.init();
 // Dynamic Year
 document.getElementById("year").textContent = new Date().getFullYear();
 
-// WhatsApp Button – Copy to Clipboard
+// ---- LOGIN AND CREATE ACCOUNT SCRIPTS -------//
+function togglePassword() {
+  const passwordInput = document.getElementById("password");
+  const eyeIcon = document.getElementById("eyeIcon");
+
+  const isVisible = passwordInput.type === "text";
+  passwordInput.type = isVisible ? "password" : "text"; 
+
+  eyeIcon.src = isVisible ? "Assets/eye.svg" : "Assets/eye-slash.svg";
+  eyeIcon.alt = isVisible ? "Show Password" : "Hide Password";
+}
+
+
+// Create Account Page
+function toggleCreateAccountPassword(inputId, eyeIconId) {
+  const passwordInput = document.getElementById(inputId);
+  const eyeIcon = document.getElementById(eyeIconId);
+
+  const isVisible = passwordInput.type === "text";
+
+  passwordInput.type = isVisible ? "password" : "text";
+
+  eyeIcon.src = isVisible ? "Assets/eye.svg" : "Assets/eye-slash.svg";
+  eyeIcon.alt = isVisible ? "Show Password" : "Hide Password";
+}
+
+
+// ---- CONTACT SCRIPTS -------//
+
+// WhatsApp Button – Para ma copy sa clipboard
 function copyWhatsAppNumber(e, el) {
   e.preventDefault();
   const number = "+63 912 345 6789";
