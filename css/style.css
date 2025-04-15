@@ -833,14 +833,79 @@ body {
 /* ========== END OF CONTACT PAGE ========== */
 
 /* ========== LOGIN PAGE ========== */
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  background: url("../Assets/Main-BG.jpg") center/cover no-repeat;
+  padding: 0 var(--container-padding-x);
+}
+
+.login-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--overlay-bg, rgba(0, 0, 0, 0.5));
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px var(--soft-shadow);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-logo-text {
+  font-size: var(--font-size-subheading);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  background: linear-gradient(to right, var(--white), var(--gray));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.logo-link {
+  text-decoration: none;
+}
 .login-card {
   background-color: var(--white);
   border-radius: 12px;
   border: 1px solid var(--gray-border);
   padding: 2rem;
-  max-width: 400px;
-  width: 100%;
   box-shadow: 0 4px 20px var(--soft-shadow);
+  width: 100%;
+  max-width: 450px;
+}
+
+.back-home-link {
+  display: block;
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: 3rem;
+  font-size: 1rem;
+  color: var(--gray-disabled);
+  text-decoration: none;
+  text-align: left;
+}
+
+.back-home-link:hover {
+  color: var(--red);
+  cursor: pointer;
+}
+
+.form-label {
+  text-align: left;
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .toggle-password {
@@ -864,22 +929,31 @@ body {
   background: linear-gradient(to right, var(--black), var(--gray-disabled));
   -webkit-background-clip: text;
   color: transparent;
+  text-align: left;
 }
 
-.create-account {
-  font-size: var(--font-size-small);
-  color: var(--black-50);
-}
-
-.create-account a {
-  color: var(--black);
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--white);
+  border: 1px solid var(--gray-border);
+  padding: 0.75rem;
   font-weight: var(--font-weight-semibold);
-  text-decoration: none;
+  font-size: var(--btn-font-size);
+  border-radius: var(--btn-radius);
+  transition: var(--transition);
 }
 
-.create-account a:hover {
-  color: var(--red);
-  cursor: pointer;
+.google-btn:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.google-btn img {
+  width: 20px;
+  height: 20px;
 }
 
 .divider {
@@ -908,39 +982,28 @@ body {
   right: 0;
 }
 
-.google-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  background-color: var(--white);
-  border: 1px solid var(--gray-border);
-  padding: 0.75rem;
-  font-weight: var(--font-weight-semibold);
-  font-size: var(--btn-font-size);
-  transition: var(--transition);
-  border-radius: var(--btn-radius);
-}
-.google-btn:hover {
-  background-color: var(--black);
-  color: var(--white);
+.create-account {
+  font-size: var(--font-size-small);
+  color: var(--black-50);
 }
 
-.google-btn img {
-  width: 20px;
-  height: 20px;
+.create-account a {
+  color: var(--black);
+  font-weight: var(--font-weight-semibold);
+  text-decoration: none;
 }
+
+.create-account a:hover {
+  color: var(--red);
+  cursor: pointer;
+}
+
 /* ========== END OF LOGIN PAGE ========== */
 
 /* ========== Start of Media Queries ========== */
 
 /* Desktop / Large */
 @media (max-width: 991.98px) {
-  /* .container {
-    padding-left: 10px;
-    padding-right: 10px;
-  } */
-
   .navbar-nav {
     gap: 32px;
     padding-top: 16px;
@@ -1052,7 +1115,6 @@ body {
     font-size: 1rem;
   }
 }
-
 /* Mobile / Small */
 @media (max-width: 575.98px) {
   /* .container {
@@ -1114,27 +1176,28 @@ body {
   .contact-form {
     margin-top: 48px;
   }
+
+  .login-wrapper {
+    padding: 0 0.5rem;
+  }
+
   .login-card {
-    padding: 1.5rem;
-    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 1rem;
+  }
+
+  .login-container {
+    padding: 1rem;
     max-width: 100%;
-    box-shadow: none;
-    border: none;
   }
 
   .login-title {
-    font-size: 24px;
-  }
-
-  .toggle-password {
-    right: 8px;
+    font-size: 18px;
+    margin-bottom: 2rem;
   }
 
   .google-btn {
-    font-size: 14px;
-  }
-  .create-account-section {
-    padding-top: 42px;
+    font-size: 0.9rem;
   }
 }
 /* ========== End Media Queries ========== */

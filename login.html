@@ -21,121 +21,85 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- NAVIGATION BAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
-      <div class="container-fluid px-5">
-        <a class="navbar-brand d-flex align-items-center" href="index.html">
-          <img src="Assets/kaizen-round-logo.png" alt="Logo" class="logo" />
-          <span class="logo-text">KAIZEN</span>
-        </a>
-        <button
-          class="navbar-toggler ms-auto"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarContent"
-          aria-controls="navbarContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarContent">
-          <ul
-            class="navbar-nav mx-lg-auto text-center my-3 my-lg-0 custom-navbar-gap"
-          >
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="product.html">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blogs.html">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-
-          <div class="d-flex justify-content-center mt-3 mt-lg-0">
-            <!-- Login Button -->
-            <a href="login.html" class="btn btn-glass me-2 active">
-              <i class="fa fa-user"></i>
-            </a>
-
-            <!-- Cart Icon Button -->
-            <a href="UnderConstruction.html" class="btn btn-glass">
-              <i class="fa fa-shopping-cart"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </nav>
     <!-- LOGIN PAGE -->
     <section
-      class="d-flex justify-content-center align-items-center"
-      style="min-height: 100vh"
+      class="login-wrapper d-flex justify-content-center align-items-center"
     >
-      <div class="login-card">
-        <form action="#" method="post" id="loginForm" class="contact-form">
-          <h2 class="login-title">Login to Your Account</h2>
-
-          <div class="mb-3">
-            <label for="username" class="form-label kzn-label">Username</label>
-            <input
-              type="text"
-              id="username"
-              class="kzn-input"
-              placeholder="Enter your username"
-              required
-            />
-          </div>
-
-          <div class="mb-3 position-relative">
-            <label for="password" class="form-label kzn-label">Password</label>
-            <input
-              type="password"
-              id="password"
-              class="kzn-input"
-              placeholder="Enter your password"
-              required
-            />
-            <button
-              type="button"
-              class="toggle-password"
-              onclick="togglePassword()"
-              aria-label="Toggle Password"
-            >
-              <img id="eyeIcon" src="Assets/eye.svg" alt="Show Password" />
-            </button>
-          </div>
-
-          <a
-            href="UnderConstruction.html"
-            class="btn kzn-btn-black w-100 mb-2 text-center"
-            >Login</a
+      <div class="login-container text-center">
+        <!-- Logo outside the card, centered -->
+        <a href="index.html" class="logo-link">
+          <div
+            class="logo-container d-flex justify-content-center align-items-center mb-4"
           >
-
-          <p class="text-center create-account">
-            Don't have an account?
-            <a href="CreateAccount.html">Create one</a>
-          </p>
-
-          <div class="divider">
-            <span>Or</span>
+            <span class="login-logo-text ms-2">KAIZEN CIRCUIT</span>
           </div>
+        </a>
 
-          <button type="button" class="google-btn w-100">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
-              alt="Google Logo"
-            />
-            Login with Google
-          </button>
-        </form>
+        <!-- Login Card -->
+        <div class="login-card">
+          <form action="#" method="post" id="loginForm" class="contact-form">
+            <a href="index.html" class="back-home-link">← Back to Homepage</a>
+
+            <h2 class="login-title">Login to Your Account</h2>
+
+            <div class="mb-3">
+              <label for="username" class="form-label kzn-label"
+                >Username</label
+              >
+              <input
+                type="text"
+                id="username"
+                class="kzn-input"
+                placeholder="Enter your username"
+                required
+              />
+            </div>
+
+            <div class="mb-3 position-relative">
+              <label for="password" class="form-label kzn-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                id="password"
+                class="kzn-input"
+                placeholder="Enter your password"
+                required
+              />
+              <button
+                type="button"
+                class="toggle-password"
+                onclick="togglePassword()"
+                aria-label="Toggle Password"
+              >
+                <img id="eyeIcon" src="Assets/eye.svg" alt="Show Password" />
+              </button>
+            </div>
+
+            <a
+              href="UnderConstruction.html"
+              class="btn kzn-btn-black w-100 mb-2 text-center"
+              >Login</a
+            >
+
+            <p class="text-center create-account">
+              Don't have an account?
+              <a href="CreateAccount.html">Create an Account</a>
+            </p>
+
+            <div class="divider">
+              <span>Or</span>
+            </div>
+
+            <button type="button" class="google-btn w-100">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
+                alt="Google Logo"
+              />
+              Login with Google
+            </button>
+          </form>
+        </div>
       </div>
     </section>
 
