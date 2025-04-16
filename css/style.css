@@ -235,7 +235,6 @@ body {
   z-index: 1000;
 }
 
-
 .navbar-brand {
   display: flex;
   align-items: center;
@@ -354,7 +353,8 @@ body {
 
 /* ========== Start Cards / Carousel ========== */
 
-.currency, .price{
+.currency,
+.price {
   font-family: var(--font-secondary);
   font-weight: var(--font-weight-semibold);
   font-size: var(--font-size-paragraph);
@@ -363,8 +363,6 @@ body {
 .currency {
   margin-right: 2px;
 }
-
-
 
 .small-title {
   font-size: var(--font-size-small);
@@ -1203,7 +1201,7 @@ body {
   .google-btn {
     font-size: 0.9rem;
   }
- 
+
   .kzn-btn-secondary,
   .kzn-btn-black {
     padding: var(--btn-padding-mobile);

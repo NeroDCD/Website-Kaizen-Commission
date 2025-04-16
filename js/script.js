@@ -46,7 +46,7 @@ function copyWhatsAppNumber(e, el) {
   });
 }
 
-// ---- BLOG PAGE-------//
+// ---- BLOG AND PAGE-------//
 
 // Sorting - Dates
 document.addEventListener("DOMContentLoaded", function () {
@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function () {
   showPage(currentPage);
 });
 
-// Temporary Data
+// Temporary Data for Blogs and Products
 document.addEventListener("DOMContentLoaded", function () {
   // Array of data for each page
   const cardsDataPage1 = [
@@ -371,525 +371,676 @@ document.addEventListener("DOMContentLoaded", function () {
       imageSrc:
         "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
       titleText: "Shadow Blitzer",
-      price: "3987.15",
+      price: "3,987.00",
       category: "rc-model"
     },
     {
       imageSrc:
-        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/18640/18640_1.jpg",
-      titleText: "Crimson Stalker",
-      price: "4,844.43",
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/5/58680/58680_1.jpg",
+      titleText: "Toyota Gazoo Racing TS050 HYBRID 2019 (F103GT Chassis)",
+      price: "4,844.00",
       category: "rc-model"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58742/58742_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58742/58742_1.jpg",
       titleText: "Aero Drifter",
-      price: "3,334.50",
+      price: "3,334.00",
       category: "rc-model"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58744/58744_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58744/58744_1.jpg",
       titleText: "Vortex Phantom",
-      price: "4,234.25",
+      price: "4,234.00",
       category: "rc-model"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47508/47508_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47508/47508_1.jpg",
       titleText: "Thunderbolt",
-      price: "5,266.80",
+      price: "5,266.00",
       category: "rc-model"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58740/58740_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58740/58740_1.jpg",
       titleText: "Stormbreaker Elite",
       price: "4,503.00",
       category: "rc-model"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18105/18105_1.jpg",
-      titleText: "Tempest Stryker",
-      price: "3,921.60",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58734/58734_1.jpg",
+      titleText: "Citroen DS (MB-01 chassis)",
+      price: "3,921.00",
       category: "rc-model"
-    },
-    {
-      imageSrc: "https://www.tamiya.com/cms/img/usr/item/9/95650/95650_s.jpg",
-      titleText: "Red Rocket",
-      price: "4,988.90",
-      category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product9.jpg",
-      titleText: "Speedster",
-      price: "3100.00",
-      category: "kit"
-    },
-    {
-      imageSrc: "https://example.com/images/product10.jpg",
-      titleText: "Blaze Runner",
-      price: "2800.00",
-      category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product11.jpg",
-      titleText: "Thunderbolt",
-      price: "4500.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product12.jpg",
-      titleText: "Cyclone Master",
-      price: "3700.00",
-      category: "chassis"
     },
     {
       imageSrc:
-        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
-      titleText: "Shadow Blitzer",
-      price: "3987.15",
-      category: "kit"
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/5/58637/58637_1.jpg",
+      titleText: "Honda Civic SiR (TT-02D) Drift Spec",
+      price: "4,988.00",
+      category: "rc-model"
     },
     {
       imageSrc:
-        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
-      titleText: "Turbo Racer",
-      price: "2500.00",
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/56376/56376_1.jpg",
+      titleText: "Scania 770 S 8x4/4",
+      price: "3,100.00",
       category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product3.jpg",
-      titleText: "Speed Hardgroove",
-      price: "4199.99",
-      category: "chassis"
-    },
-    {
-      imageSrc: "https://example.com/images/product4.jpg",
-      titleText: "Night Hawk",
-      price: "5100.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product5.jpg",
-      titleText: "Red Rocket",
-      price: "2300.00",
-      category: "kit"
-    },
-    {
-      imageSrc: "https://example.com/images/product6.jpg",
-      titleText: "Black Phantom",
-      price: "4750.00",
-      category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product7.jpg",
-      titleText: "Falcon Master",
-      price: "6200.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product8.jpg",
-      titleText: "Mighty Beast",
-      price: "3400.00",
-      category: "chassis"
-    },
-    {
-      imageSrc: "https://example.com/images/product9.jpg",
-      titleText: "Speedster",
-      price: "3100.00",
-      category: "kit"
-    },
-    {
-      imageSrc: "https://example.com/images/product10.jpg",
-      titleText: "Blaze Runner",
-      price: "2800.00",
-      category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product11.jpg",
-      titleText: "Thunderbolt",
-      price: "4500.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product12.jpg",
-      titleText: "Cyclone Master",
-      price: "3700.00",
-      category: "chassis"
     },
     {
       imageSrc:
-        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
-      titleText: "Shadow Blitzer",
-      price: "3987.15",
-      category: "kit"
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58746/58746_1.jpg",
+      titleText: "Peugeot 306 Maxi",
+      price: "2,800.00",
+      category: "rc-model"
     },
     {
       imageSrc:
-        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
-      titleText: "Turbo Racer",
-      price: "2500.00",
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/5/58741/58741_1.jpg",
+      titleText: "Fighter NXGEN",
+      price: "4,500.00",
       category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product3.jpg",
-      titleText: "Speed Hardgroove",
-      price: "4199.99",
-      category: "chassis"
-    },
-    {
-      imageSrc: "https://example.com/images/product4.jpg",
-      titleText: "Night Hawk",
-      price: "5100.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product5.jpg",
-      titleText: "Red Rocket",
-      price: "2300.00",
-      category: "kit"
-    },
-    {
-      imageSrc: "https://example.com/images/product6.jpg",
-      titleText: "Black Phantom",
-      price: "4750.00",
-      category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product7.jpg",
-      titleText: "Falcon Master",
-      price: "6200.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product8.jpg",
-      titleText: "Mighty Beast",
-      price: "3400.00",
-      category: "chassis"
-    },
-    {
-      imageSrc: "https://example.com/images/product9.jpg",
-      titleText: "Speedster",
-      price: "3100.00",
-      category: "kit"
-    },
-    {
-      imageSrc: "https://example.com/images/product10.jpg",
-      titleText: "Blaze Runner",
-      price: "2800.00",
-      category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product11.jpg",
-      titleText: "Thunderbolt",
-      price: "4500.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product12.jpg",
-      titleText: "Cyclone Master",
-      price: "3700.00",
-      category: "chassis"
     },
     {
       imageSrc:
-        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
-      titleText: "Shadow Blitzer",
-      price: "3987.15",
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58729/58729_1.jpg",
+      titleText: "Opel Kadett GT/E",
+      price: "3,700.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/74057/74057_1.jpg",
+      titleText: "Portable tool set (for drilling)",
+      price: "4,823.00",
+      category: "tool"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/74146/74146_1.jpg",
+      titleText: "Needle nose w/cutter II",
+      price: "4,060.00",
+      category: "tool"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/6/69943/69943_1.jpg",
+      titleText: "Modeler's knife (blue)",
+      price: "6,176.00",
+      category: "tool"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/74152/74152_1.jpg",
+      titleText: "Ratcheting screwdriver pro",
+      price: "5,198.00",
+      category: "tool"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/8/87221/87221_1.jpg",
+      titleText: "DIORAMA TEXTURE CLAY (SOIL EFFECT, BROWN) 150g",
+      price: "2,500.00",
+      category: "tool"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/74041/74041_1.jpg",
+      titleText: "ELECTRIC HANDY DRILL",
+      price: "4,199.00",
+      category: "tool"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/74064/74064_1.jpg",
+      titleText: "WORK STAND w/MAGNIFYING LENS",
+      price: "5,100.00",
+      category: "tool"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/8/87225/87225_1.jpg",
+      titleText: "CHIPPING LIQUID",
+      price: "3,987.00",
+      category: "tool"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/6/67037/67037_s.jpg",
+      titleText: "KTC TOOL SET EKB (for R/C)",
+      price: "2,500.00",
+      category: "tool"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/74088/74088_1.jpg",
+      titleText: "NUT DRIVER (4mm/4.5mm)",
+      price: "4,199.00",
+      category: "tool"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/74085/74085_1.jpg",
+      titleText: "R/C TOOL SET (8PCS.)",
+      price: "5,100.00",
+      category: "tool"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/7/74156/74156_1.jpg",
+      titleText: "MODELING TEMPLATE (SQUARE, 1-10mm)",
+      price: "2,300.00",
+      category: "tool"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18105/18105_1.jpg",
+      titleText: "The GRASSHOPPER Jr. (VZ CHASSIS)",
+      price: "2,300.00",
       category: "kit"
     },
     {
       imageSrc:
-        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
-      titleText: "Turbo Racer",
-      price: "2500.00",
-      category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product3.jpg",
-      titleText: "Speed Hardgroove",
-      price: "4199.99",
-      category: "chassis"
-    },
-    {
-      imageSrc: "https://example.com/images/product4.jpg",
-      titleText: "Night Hawk",
-      price: "5100.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product5.jpg",
-      titleText: "Red Rocket",
-      price: "2300.00",
-      category: "kit"
-    },
-    {
-      imageSrc: "https://example.com/images/product6.jpg",
-      titleText: "Black Phantom",
-      price: "4750.00",
-      category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product7.jpg",
-      titleText: "Falcon Master",
-      price: "6200.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product8.jpg",
-      titleText: "Mighty Beast",
-      price: "3400.00",
-      category: "chassis"
-    },
-    {
-      imageSrc: "https://example.com/images/product9.jpg",
-      titleText: "Speedster",
-      price: "3100.00",
-      category: "kit"
-    },
-    {
-      imageSrc: "https://example.com/images/product10.jpg",
-      titleText: "Blaze Runner",
-      price: "2800.00",
-      category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product11.jpg",
-      titleText: "Thunderbolt",
-      price: "4500.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product12.jpg",
-      titleText: "Cyclone Master",
-      price: "3700.00",
-      category: "chassis"
-    },
-    {
-      imageSrc:
-        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
-      titleText: "Shadow Blitzer",
-      price: "3987.15",
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/9/95679/95679_1.jpg",
+      titleText: "MINI 4WD NEW YEAR'S EDITION YEAR OF THE SNAKE 2025",
+      price: "3,400.00",
       category: "kit"
     },
     {
       imageSrc:
-        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
-      titleText: "Turbo Racer",
-      price: "2500.00",
-      category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product3.jpg",
-      titleText: "Speed Hardgroove",
-      price: "4199.99",
-      category: "chassis"
-    },
-    {
-      imageSrc: "https://example.com/images/product4.jpg",
-      titleText: "Night Hawk",
-      price: "5100.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product5.jpg",
-      titleText: "Red Rocket",
-      price: "2300.00",
-      category: "kit"
-    },
-    {
-      imageSrc: "https://example.com/images/product6.jpg",
-      titleText: "Black Phantom",
-      price: "4750.00",
-      category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product7.jpg",
-      titleText: "Falcon Master",
-      price: "6200.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product8.jpg",
-      titleText: "Mighty Beast",
-      price: "3400.00",
-      category: "chassis"
-    },
-    {
-      imageSrc: "https://example.com/images/product9.jpg",
-      titleText: "Speedster",
-      price: "3100.00",
-      category: "kit"
-    },
-    {
-      imageSrc: "https://example.com/images/product10.jpg",
-      titleText: "Blaze Runner",
-      price: "2800.00",
-      category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product11.jpg",
-      titleText: "Thunderbolt",
-      price: "4500.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product12.jpg",
-      titleText: "Cyclone Master",
-      price: "3700.00",
-      category: "chassis"
-    },
-    {
-      imageSrc:
-        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
-      titleText: "Shadow Blitzer",
-      price: "3987.15",
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18104/18104_1.jpg",
+      titleText: "CROSS SPEAR 02 (VZ CHASSIS)",
+      price: "4,500.00",
       category: "kit"
     },
     {
       imageSrc:
-        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
-      titleText: "Turbo Racer",
-      price: "2500.00",
-      category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product3.jpg",
-      titleText: "Speed Hardgroove",
-      price: "4199.99",
-      category: "chassis"
-    },
-    {
-      imageSrc: "https://example.com/images/product4.jpg",
-      titleText: "Night Hawk",
-      price: "5100.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product5.jpg",
-      titleText: "Red Rocket",
-      price: "2300.00",
-      category: "kit"
-    },
-    {
-      imageSrc: "https://example.com/images/product6.jpg",
-      titleText: "Black Phantom",
-      price: "4750.00",
-      category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product7.jpg",
-      titleText: "Falcon Master",
-      price: "6200.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product8.jpg",
-      titleText: "Mighty Beast",
-      price: "3400.00",
-      category: "chassis"
-    },
-    {
-      imageSrc: "https://example.com/images/product9.jpg",
-      titleText: "Speedster",
-      price: "3100.00",
-      category: "kit"
-    },
-    {
-      imageSrc: "https://example.com/images/product10.jpg",
-      titleText: "Blaze Runner",
-      price: "2800.00",
-      category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product11.jpg",
-      titleText: "Thunderbolt",
-      price: "4500.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product12.jpg",
-      titleText: "Cyclone Master",
-      price: "3700.00",
-      category: "chassis"
-    },
-    {
-      imageSrc:
-        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
-      titleText: "Shadow Blitzer",
-      price: "3987.15",
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/9/95603/95603_1.jpg",
+      titleText:
+        "HURRICANE SONIC POLYCARBONATE BODY SPECIAL (AR CHASSIS) FULLY COWLED MINI 4WD 30TH ANNIVERSARY",
+      price: "2,800.00",
       category: "kit"
     },
     {
       imageSrc:
-        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
-      titleText: "Turbo Racer",
-      price: "2500.00",
-      category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product3.jpg",
-      titleText: "Speed Hardgroove",
-      price: "4199.99",
-      category: "chassis"
-    },
-    {
-      imageSrc: "https://example.com/images/product4.jpg",
-      titleText: "Night Hawk",
-      price: "5100.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product5.jpg",
-      titleText: "Red Rocket",
-      price: "2300.00",
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/9/95168/95168_1.jpg",
+      titleText: "IGNICION (MA CHASSIS) JAPAN CUP 2024",
+      price: "3,200.00",
       category: "kit"
     },
     {
-      imageSrc: "https://example.com/images/product6.jpg",
-      titleText: "Black Phantom",
-      price: "4750.00",
-      category: "rc-model"
-    },
-    {
-      imageSrc: "https://example.com/images/product7.jpg",
-      titleText: "Falcon Master",
-      price: "6200.00",
-      category: "motor"
-    },
-    {
-      imageSrc: "https://example.com/images/product8.jpg",
-      titleText: "Mighty Beast",
-      price: "3400.00",
-      category: "chassis"
-    },
-    {
-      imageSrc: "https://example.com/images/product9.jpg",
-      titleText: "Speedster",
-      price: "3100.00",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18102/18102_1.jpg",
+      titleText: "Mini 4WD Lupine Racer 2 (AR)",
+      price: "5,100.00",
       category: "kit"
     },
     {
-      imageSrc: "https://example.com/images/product10.jpg",
-      titleText: "Blaze Runner",
-      price: "2800.00",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18103/18103_1.jpg",
+      titleText: "Cross Spear 01 (VZ)",
+      price: "3,500.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18659/18659_1.jpg",
+      titleText: "ESTOURA (MA CHASSIS)",
+      price: "2,800.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18658/18658_1.jpg",
+      titleText: "CHEVALIER (MA CHASSIS)",
+      price: "4,000.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18720/18720_1.jpg",
+      titleText: "K4TASCHE (FM-A CHASSIS)",
+      price: "3,600.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18101/18101_1_03.jpg",
+      titleText: "SUPER AVANTE Jr. (VZ)",
+      price: "4,800.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18099/18099_1.jpg",
+      titleText: "RAY SPEAR (VZ CHASSIS)",
+      price: "2,900.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18100/18100_1.jpg",
+      titleText: "ELEGLITTER (VZ CHASSIS)",
+      price: "6,200.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18098/18098_1.jpg",
+      titleText: "IRON BEAK (VZ CHASSIS)",
+      price: "2,750.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/9/95501/95501_1_02.jpg",
+      titleText: "AVANTE Jr. BLACK SPECIAL",
+      price: "3,880.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/9/95571/95571_1.jpg",
+      titleText: "EXFLOWLY POLYCARBONATE BODY SPECIAL (PURPLE) (MS CHASSIS)",
+      price: "4,100.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/9/95572/95572_1.jpg",
+      titleText: "RAYVOLF POLYCARBONATE BODY SPECIAL (LIGHT BLUE) (MS CHASSIS)",
+      price: "5,950.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18096/18096_1.jpg",
+      titleText: "DUAL RIDGE Jr. (VZ CHASSIS)",
+      price: "3,200.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18094/18094_1.jpg",
+      titleText: "NEO-VQS (VZ CHASSIS)",
+      price: "2,450.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/19454/19454_1.jpg",
+      titleText: "COSMOSONIC (FM-A CHASSIS)",
+      price: "3,730.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18714/18714_1.jpg",
+      titleText: "MACH FRAME (FM-A CHASSIS)",
+      price: "4,690.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18715/18715_1.jpg",
+      titleText: "COPPERFANG (FM-A CHASSIS)",
+      price: "5,250.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/18650/18650_1.jpg",
+      titleText: "DCR-02 (MA CHASSIS)",
+      price: "3,990.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18093/18093_1.jpg",
+      titleText: "MINI 4WD KOALA RACER",
+      price: "4,300.00",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/15546/15546_1.jpg",
+      titleText:
+        "LARGE DIA. LOW FRICTION ARCHED TIRES (31mm) & CARBON WHEELS (V SPOKE)",
+      price: "2,990.00",
+      category: "4wd-parts"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/15545/15545_1.jpg",
+      titleText:
+        "HARD SMALL DIA. LOW-PROFILE TIRES (26mm/GRAY) & CARBON WHEELS (DISH, for SUPER X & XX CHASSIS)",
+      price: "4,250.00",
+      category: "4wd-parts"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/15544/15544_1.jpg",
+      titleText:
+        "LARGE DIA. LOW FRICTION LOW-PROFILE TIRES (31mm) & CARBON WHEELS (DISH)",
+      price: "3,600.00",
+      category: "4wd-parts"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/9/95680/95680_1.jpg",
+      titleText:
+        "HG ALUMINUM WHEELS for SMALL DIA. NARROW TIRES (24mm) (REVERSIBLE, 2PCS.)",
+      price: "5,100.00",
+      category: "4wd-parts"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/15532/15532_1.jpg",
+      titleText: "LOW FRICTION PLASTIC DOUBLE ROLLERS (BLUE/19-19mm)",
+      price: "6,480.00",
+      category: "4wd-parts"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/9/95643/95643_1.jpg",
+      titleText:
+        "MINI 4WD 40th ANNIVERSARY HG 19mm ALUMINUM BALL-RACE ROLLERS (RINGLESS)",
+      price: "2,850.00",
+      category: "4wd-parts"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/9/95583/95583_1.jpg",
+      titleText: "HG 19mm TAPERED ALUMINUM BALL-RACE ROLLERS (RINGLESS/GOLD)",
+      price: "3,770.00",
+      category: "4wd-parts"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/9/95597/95597_1.jpg",
+      titleText: "HG 17mm TAPERED ALUMINUM BALL-RACE ROLLERS (RINGLESS)",
+      price: "4,990.00",
+      category: "4wd-parts"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/15527/15527_1.jpg",
+      titleText: "STAINLESS STEEL COUNTERSUNK SCREW SET (6/8/15mm)",
+      price: "300.00",
+      category: "4wd-parts"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/15528/15528_1.jpg",
+      titleText: "HI-MOUNT TUBE STABILIZER SET (BLACK)",
+      price: "400.00",
+      category: "4wd-parts"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/15526/15526_1.jpg",
+      titleText: "BASIC TUNE-UP PARTS SET for VZ CHASSIS",
+      price: "310.00",
+      category: "4wd-parts"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/9/95239/95239_1.jpg",
+      titleText: "CARBON REINFORCED SUPER FM CHASSIS SET",
+      price: "4,620.00",
+      category: "4wd-parts"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/9/95677/95677_1.jpg",
+      titleText:
+        "MINI 4WD JAPAN CUP JUNIOR CIRCUIT SPECIAL COLOR EDITION (YELLOW)",
+      price: "25,000.00",
+      category: "4wd-circuit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/9/94893/94893_1.jpg",
+      titleText:
+        "MINI 4WD OVAL HOME CIRCUIT (TWO-LEVEL LANE CHANGE) (RED/WHITE/BLUE)",
+      price: "30,500.00",
+      category: "4wd-circuit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/6/69571/69571_s.jpg",
+      titleText: "CIRCUIT BANK-APPROACH 20 (RED)",
+      price: "8,000.00",
+      category: "4wd-circuit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/6/69575/69575_1.jpg",
+      titleText: "CIRCUIT WAVE SECTION SET (WHITE, 4PCS.)",
+      price: "850.00",
+      category: "4wd-circuit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/6/69574/69574_1.jpg",
+      titleText: "CIRCUIT STRAIGHT SECTION SET (WHITE, 4PCS.)",
+      price: "700.00",
+      category: "4wd-circuit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/24031/24031_1.jpg",
+      titleText: "1/24 Audi quattro",
+      price: "3,120.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/24371/24371_1.jpg",
+      titleText: "1/24 SCALE TOYOTA GR Supra CUSTOM",
+      price: "3,230.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/24027/24027_1.jpg",
+      titleText: "1/24 RENAULT 5 TURBO RALLY",
+      price: "3,450.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/24369/24369_1.jpg",
+      titleText: "1/24 SCALE Honda CITY TURBO",
+      price: "3,500.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/24370/24370_1.jpg",
+      titleText: "1/24 SCALE PORSCHE 911 GT3 RS (992)",
+      price: "3,220.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/24045/24045_1a.jpg",
+      titleText: "1/24 Honda BALLADE SPORTS MUGEN CR-X PRO.",
+      price: "3,670.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/24367/24367_1.jpg",
+      titleText: "1/24 NISSAN FAIRLADY 240Z STREET-CUSTOM",
+      price: "3,850.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/24365/24365_1.jpg",
+      titleText: "1/24 TOYOTA SOARER 2000VR-TURBO",
+      price: "3,300.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/24188/24188_1.jpg",
+      titleText: "1/24 ALFA ROMEO GIULIA SPRINT GTA",
+      price: "3,450.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/24169/24169_1.jpg",
+      titleText: "1/24 FIAT 500F",
+      price: "3,570.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/20072/20072_1.jpg",
+      titleText: "1/20 TOYOTA CELICA LB TURBO Gr.5",
+      price: "3,180.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/20071/20071_1.jpg",
+      titleText: "1/20 PORSCHE 935 VAILLANT",
+      price: "3,900.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/24364/24364_1a.jpg",
+      titleText: "1/24 GMA T.50",
+      price: "3,150.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/24363/24363_1a.jpg",
+      titleText: "1/24 NISSAN Z",
+      price: "3,500.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/24362/24362_1.jpg",
+      titleText: "1/24 SUBARU BRZ (ZD8)",
+      price: "3,850.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/24360/24360_1.jpg",
+      titleText: "1/24 NISSAN FAIRLADY 240ZG",
+      price: "3,820.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/24361/24361_1a.jpg",
+      titleText: "1/24 TOYOTA GR 86",
+      price: "3,410.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/2/24355/24355_1.jpg",
+      titleText: "1/24 McLAREN SENNA",
+      price: "3,350.00",
+      category: "st-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/48218/48218_1y.jpg",
+      titleText: "GERMAN TANK PANZERKAMPFWAGEN IV Ausf.J (w/CONTROL UNIT)",
+      price: "4,250.00",
       category: "rc-model"
     },
     {
-      imageSrc: "https://example.com/images/product11.jpg",
-      titleText: "Thunderbolt",
-      price: "4500.00",
-      category: "motor"
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/48217/48217_1.jpg",
+      titleText: "U.S. MEDIUM TANK M4A3 SHERMAN (w/CONTROL UNIT)",
+      price: "4,500.00",
+      category: "rc-model"
     },
     {
-      imageSrc: "https://example.com/images/product12.jpg",
-      titleText: "Cyclone Master",
-      price: "3700.00",
-      category: "chassis"
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/56044/56044_1.jpg",
+      titleText:
+        "BRITISH BATTLE TANK CENTURION Mk.III FULL-OPTION COMPLETE KIT",
+      price: "4,350.00",
+      category: "rc-model"
     },
     {
-      imageSrc: "https://example.com/images/product13.jpg",
-      titleText: "Phantom Racer",
-      price: "2900.00",
-      category: "kit"
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/48215/48215_1.jpg",
+      titleText:
+        "JAPAN GROUND SELF DEFENSE FORCE TYPE 10 TANK (w/CONTROL UNIT)",
+      price: "4,700.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/5/56017/56017_1.jpg",
+      titleText: "HEAVY TANK TYPE VI KING TIGER FULL-OPTION COMPLETE KIT",
+      price: "4,900.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/56048/info/56048_1.jpg",
+      titleText: "SHERMAN 105mm HOWITZER (MECHANICAL STEERING SYSTEM)",
+      price: "4,200.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/5/56013/56013_1.jpg",
+      titleText: "M4 SHERMAN 105mm HOWITZER FULL-OPTION KIT",
+      price: "4,800.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/5/55120/55120_1.jpg",
+      titleText: "POWERCHAMP RX (12PCS.) (Mini 4WD Batteries)",
+      price: "2,000.00",
+      category: "4wd-battery"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/5/55119/55119_1.jpg",
+      titleText: "POWERCHAMP RX",
+      price: "170.00",
+      category: "4wd-battery"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/5/55117/55117_1.jpg",
+      titleText: "POWERCHAMP RS",
+      price: "1,500.00",
+      category: "4wd-battery"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/6/67244/67244_1.jpg",
+      titleText: "TAMIYA RACING FACTORY STRIPE LOGO T-SHIRT A TYPE (BLACK) S",
+      price: "170.00",
+      category: "misc"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/6/67295/67295_1.jpg",
+      titleText: "TAMIYA QUICK-DRYING T-SHIRT A TYPE (BLACK) L",
+      price: "1,500.00",
+      category: "misc"
     }
   ];
 
@@ -917,13 +1068,15 @@ document.addEventListener("DOMContentLoaded", function () {
       );
     }
 
+    const parsePrice = (priceStr) => parseFloat(priceStr.replace(/,/g, ""));
+
     if (sortOption === "price-asc") {
       filteredProducts.sort(
-        (a, b) => parseFloat(a.price) - parseFloat(b.price)
+        (a, b) => parsePrice(a.price) - parsePrice(b.price)
       );
     } else if (sortOption === "price-desc") {
       filteredProducts.sort(
-        (a, b) => parseFloat(b.price) - parseFloat(a.price)
+        (a, b) => parsePrice(b.price) - parsePrice(a.price)
       );
     } else if (sortOption === "name-asc") {
       filteredProducts.sort((a, b) => a.titleText.localeCompare(b.titleText));
@@ -944,7 +1097,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (paginatedProducts.length === 0) {
       productContainer.innerHTML =
-        "<p>No products available for this page.</p>";
+        "<p>Oops! It looks like we don't have any products available in this category right now. Please check back later!</p>";
       return;
     }
 
