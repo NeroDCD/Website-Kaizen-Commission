@@ -11,12 +11,11 @@ function togglePassword() {
   const eyeIcon = document.getElementById("eyeIcon");
 
   const isVisible = passwordInput.type === "text";
-  passwordInput.type = isVisible ? "password" : "text"; 
+  passwordInput.type = isVisible ? "password" : "text";
 
   eyeIcon.src = isVisible ? "Assets/eye.svg" : "Assets/eye-slash.svg";
   eyeIcon.alt = isVisible ? "Show Password" : "Hide Password";
 }
-
 
 // Create Account Page
 function toggleCreateAccountPassword(inputId, eyeIconId) {
@@ -30,7 +29,6 @@ function toggleCreateAccountPassword(inputId, eyeIconId) {
   eyeIcon.src = isVisible ? "Assets/eye.svg" : "Assets/eye-slash.svg";
   eyeIcon.alt = isVisible ? "Show Password" : "Hide Password";
 }
-
 
 // ---- CONTACT SCRIPTS -------//
 
@@ -364,6 +362,745 @@ document.addEventListener("DOMContentLoaded", function () {
   populateCards("blogPage1", cardsDataPage1);
   populateCards("blogPage2", cardsDataPage2);
   populateCards("blogPage3", cardsDataPage3);
+
+  // ---- PRODUCT FUNCTIONS ---- //
+
+  // PRODUCT DATA
+  const products = [
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
+      titleText: "Shadow Blitzer",
+      price: "3987.15",
+      category: "rc-model"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/18640/18640_1.jpg",
+      titleText: "Crimson Stalker",
+      price: "4,844.43",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58742/58742_1.jpg",
+      titleText: "Aero Drifter",
+      price: "3,334.50",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58744/58744_1.jpg",
+      titleText: "Vortex Phantom",
+      price: "4,234.25",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47508/47508_1.jpg",
+      titleText: "Thunderbolt",
+      price: "5,266.80",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58740/58740_1.jpg",
+      titleText: "Stormbreaker Elite",
+      price: "4,503.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18105/18105_1.jpg",
+      titleText: "Tempest Stryker",
+      price: "3,921.60",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://www.tamiya.com/cms/img/usr/item/9/95650/95650_s.jpg",
+      titleText: "Red Rocket",
+      price: "4,988.90",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product9.jpg",
+      titleText: "Speedster",
+      price: "3100.00",
+      category: "kit"
+    },
+    {
+      imageSrc: "https://example.com/images/product10.jpg",
+      titleText: "Blaze Runner",
+      price: "2800.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product11.jpg",
+      titleText: "Thunderbolt",
+      price: "4500.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product12.jpg",
+      titleText: "Cyclone Master",
+      price: "3700.00",
+      category: "chassis"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
+      titleText: "Shadow Blitzer",
+      price: "3987.15",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
+      titleText: "Turbo Racer",
+      price: "2500.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product3.jpg",
+      titleText: "Speed Hardgroove",
+      price: "4199.99",
+      category: "chassis"
+    },
+    {
+      imageSrc: "https://example.com/images/product4.jpg",
+      titleText: "Night Hawk",
+      price: "5100.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product5.jpg",
+      titleText: "Red Rocket",
+      price: "2300.00",
+      category: "kit"
+    },
+    {
+      imageSrc: "https://example.com/images/product6.jpg",
+      titleText: "Black Phantom",
+      price: "4750.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product7.jpg",
+      titleText: "Falcon Master",
+      price: "6200.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product8.jpg",
+      titleText: "Mighty Beast",
+      price: "3400.00",
+      category: "chassis"
+    },
+    {
+      imageSrc: "https://example.com/images/product9.jpg",
+      titleText: "Speedster",
+      price: "3100.00",
+      category: "kit"
+    },
+    {
+      imageSrc: "https://example.com/images/product10.jpg",
+      titleText: "Blaze Runner",
+      price: "2800.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product11.jpg",
+      titleText: "Thunderbolt",
+      price: "4500.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product12.jpg",
+      titleText: "Cyclone Master",
+      price: "3700.00",
+      category: "chassis"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
+      titleText: "Shadow Blitzer",
+      price: "3987.15",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
+      titleText: "Turbo Racer",
+      price: "2500.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product3.jpg",
+      titleText: "Speed Hardgroove",
+      price: "4199.99",
+      category: "chassis"
+    },
+    {
+      imageSrc: "https://example.com/images/product4.jpg",
+      titleText: "Night Hawk",
+      price: "5100.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product5.jpg",
+      titleText: "Red Rocket",
+      price: "2300.00",
+      category: "kit"
+    },
+    {
+      imageSrc: "https://example.com/images/product6.jpg",
+      titleText: "Black Phantom",
+      price: "4750.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product7.jpg",
+      titleText: "Falcon Master",
+      price: "6200.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product8.jpg",
+      titleText: "Mighty Beast",
+      price: "3400.00",
+      category: "chassis"
+    },
+    {
+      imageSrc: "https://example.com/images/product9.jpg",
+      titleText: "Speedster",
+      price: "3100.00",
+      category: "kit"
+    },
+    {
+      imageSrc: "https://example.com/images/product10.jpg",
+      titleText: "Blaze Runner",
+      price: "2800.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product11.jpg",
+      titleText: "Thunderbolt",
+      price: "4500.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product12.jpg",
+      titleText: "Cyclone Master",
+      price: "3700.00",
+      category: "chassis"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
+      titleText: "Shadow Blitzer",
+      price: "3987.15",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
+      titleText: "Turbo Racer",
+      price: "2500.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product3.jpg",
+      titleText: "Speed Hardgroove",
+      price: "4199.99",
+      category: "chassis"
+    },
+    {
+      imageSrc: "https://example.com/images/product4.jpg",
+      titleText: "Night Hawk",
+      price: "5100.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product5.jpg",
+      titleText: "Red Rocket",
+      price: "2300.00",
+      category: "kit"
+    },
+    {
+      imageSrc: "https://example.com/images/product6.jpg",
+      titleText: "Black Phantom",
+      price: "4750.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product7.jpg",
+      titleText: "Falcon Master",
+      price: "6200.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product8.jpg",
+      titleText: "Mighty Beast",
+      price: "3400.00",
+      category: "chassis"
+    },
+    {
+      imageSrc: "https://example.com/images/product9.jpg",
+      titleText: "Speedster",
+      price: "3100.00",
+      category: "kit"
+    },
+    {
+      imageSrc: "https://example.com/images/product10.jpg",
+      titleText: "Blaze Runner",
+      price: "2800.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product11.jpg",
+      titleText: "Thunderbolt",
+      price: "4500.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product12.jpg",
+      titleText: "Cyclone Master",
+      price: "3700.00",
+      category: "chassis"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
+      titleText: "Shadow Blitzer",
+      price: "3987.15",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
+      titleText: "Turbo Racer",
+      price: "2500.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product3.jpg",
+      titleText: "Speed Hardgroove",
+      price: "4199.99",
+      category: "chassis"
+    },
+    {
+      imageSrc: "https://example.com/images/product4.jpg",
+      titleText: "Night Hawk",
+      price: "5100.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product5.jpg",
+      titleText: "Red Rocket",
+      price: "2300.00",
+      category: "kit"
+    },
+    {
+      imageSrc: "https://example.com/images/product6.jpg",
+      titleText: "Black Phantom",
+      price: "4750.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product7.jpg",
+      titleText: "Falcon Master",
+      price: "6200.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product8.jpg",
+      titleText: "Mighty Beast",
+      price: "3400.00",
+      category: "chassis"
+    },
+    {
+      imageSrc: "https://example.com/images/product9.jpg",
+      titleText: "Speedster",
+      price: "3100.00",
+      category: "kit"
+    },
+    {
+      imageSrc: "https://example.com/images/product10.jpg",
+      titleText: "Blaze Runner",
+      price: "2800.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product11.jpg",
+      titleText: "Thunderbolt",
+      price: "4500.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product12.jpg",
+      titleText: "Cyclone Master",
+      price: "3700.00",
+      category: "chassis"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
+      titleText: "Shadow Blitzer",
+      price: "3987.15",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
+      titleText: "Turbo Racer",
+      price: "2500.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product3.jpg",
+      titleText: "Speed Hardgroove",
+      price: "4199.99",
+      category: "chassis"
+    },
+    {
+      imageSrc: "https://example.com/images/product4.jpg",
+      titleText: "Night Hawk",
+      price: "5100.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product5.jpg",
+      titleText: "Red Rocket",
+      price: "2300.00",
+      category: "kit"
+    },
+    {
+      imageSrc: "https://example.com/images/product6.jpg",
+      titleText: "Black Phantom",
+      price: "4750.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product7.jpg",
+      titleText: "Falcon Master",
+      price: "6200.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product8.jpg",
+      titleText: "Mighty Beast",
+      price: "3400.00",
+      category: "chassis"
+    },
+    {
+      imageSrc: "https://example.com/images/product9.jpg",
+      titleText: "Speedster",
+      price: "3100.00",
+      category: "kit"
+    },
+    {
+      imageSrc: "https://example.com/images/product10.jpg",
+      titleText: "Blaze Runner",
+      price: "2800.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product11.jpg",
+      titleText: "Thunderbolt",
+      price: "4500.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product12.jpg",
+      titleText: "Cyclone Master",
+      price: "3700.00",
+      category: "chassis"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
+      titleText: "Shadow Blitzer",
+      price: "3987.15",
+      category: "kit"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg",
+      titleText: "Turbo Racer",
+      price: "2500.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product3.jpg",
+      titleText: "Speed Hardgroove",
+      price: "4199.99",
+      category: "chassis"
+    },
+    {
+      imageSrc: "https://example.com/images/product4.jpg",
+      titleText: "Night Hawk",
+      price: "5100.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product5.jpg",
+      titleText: "Red Rocket",
+      price: "2300.00",
+      category: "kit"
+    },
+    {
+      imageSrc: "https://example.com/images/product6.jpg",
+      titleText: "Black Phantom",
+      price: "4750.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product7.jpg",
+      titleText: "Falcon Master",
+      price: "6200.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product8.jpg",
+      titleText: "Mighty Beast",
+      price: "3400.00",
+      category: "chassis"
+    },
+    {
+      imageSrc: "https://example.com/images/product9.jpg",
+      titleText: "Speedster",
+      price: "3100.00",
+      category: "kit"
+    },
+    {
+      imageSrc: "https://example.com/images/product10.jpg",
+      titleText: "Blaze Runner",
+      price: "2800.00",
+      category: "rc-model"
+    },
+    {
+      imageSrc: "https://example.com/images/product11.jpg",
+      titleText: "Thunderbolt",
+      price: "4500.00",
+      category: "motor"
+    },
+    {
+      imageSrc: "https://example.com/images/product12.jpg",
+      titleText: "Cyclone Master",
+      price: "3700.00",
+      category: "chassis"
+    },
+    {
+      imageSrc: "https://example.com/images/product13.jpg",
+      titleText: "Phantom Racer",
+      price: "2900.00",
+      category: "kit"
+    }
+  ];
+
+  const productsPerPage = 12;
+  let currentPage = 1;
+
+  function filterAndSortProducts() {
+    let filteredProducts = [...products];
+
+    const filterCategory = document.getElementById("filter-dropdown").value;
+    const searchQuery = document
+      .getElementById("search-bar")
+      .value.toLowerCase();
+    const sortOption = document.getElementById("sort-dropdown").value;
+
+    if (filterCategory !== "Filter by Category") {
+      filteredProducts = filteredProducts.filter(
+        (p) => p.category === filterCategory
+      );
+    }
+
+    if (searchQuery) {
+      filteredProducts = filteredProducts.filter((p) =>
+        p.titleText.toLowerCase().includes(searchQuery)
+      );
+    }
+
+    if (sortOption === "price-asc") {
+      filteredProducts.sort(
+        (a, b) => parseFloat(a.price) - parseFloat(b.price)
+      );
+    } else if (sortOption === "price-desc") {
+      filteredProducts.sort(
+        (a, b) => parseFloat(b.price) - parseFloat(a.price)
+      );
+    } else if (sortOption === "name-asc") {
+      filteredProducts.sort((a, b) => a.titleText.localeCompare(b.titleText));
+    } else if (sortOption === "name-desc") {
+      filteredProducts.sort((a, b) => b.titleText.localeCompare(a.titleText));
+    }
+
+    paginateAndDisplay(filteredProducts);
+  }
+
+  function paginateAndDisplay(filteredProducts) {
+    const productContainer = document.getElementById("product-container");
+    productContainer.innerHTML = "";
+
+    const startIndex = (currentPage - 1) * productsPerPage;
+    const endIndex = startIndex + productsPerPage;
+    const paginatedProducts = filteredProducts.slice(startIndex, endIndex);
+
+    if (paginatedProducts.length === 0) {
+      productContainer.innerHTML =
+        "<p>No products available for this page.</p>";
+      return;
+    }
+
+    paginatedProducts.forEach((product) => {
+      const cardHTML = `
+        <div class="col-6 col-sm-6 col-md-3 mb-4">
+          <div class="card position-relative h-100">
+            <div class="card-img-wrapper">
+              <img src="${product.imageSrc}" class="card-img-top prodPopulate-img" alt="${product.titleText}" />
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title mb-1 prodPopulate-title">${product.titleText}</h5>
+              <p class="fw-bold mb-2">
+                <span class="currency">&#8369;</span><span class="price">${product.price}</span>
+              </p>
+              <a href="login.html" class="btn kzn-btn-black mt-auto">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      `;
+      productContainer.innerHTML += cardHTML;
+    });
+
+    updatePaginationControls(filteredProducts.length);
+  }
+
+  function updatePaginationControls(totalProducts) {
+    const totalPages = Math.ceil(totalProducts / productsPerPage);
+    const pagination = document.getElementById("productPagination");
+
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+
+    prevBtn.classList.toggle("disabled", currentPage === 1);
+    nextBtn.classList.toggle("disabled", currentPage === totalPages);
+
+    // Clear all page items except Prev and Next
+    const existingPageBtns = Array.from(
+      pagination.querySelectorAll("li")
+    ).filter((li) => li !== prevBtn && li !== nextBtn);
+    existingPageBtns.forEach((li) => li.remove());
+
+    function createPageItem(page) {
+      const li = document.createElement("li");
+      li.className = "page-item" + (page === currentPage ? " active" : "");
+      const btn = document.createElement("button");
+      btn.className = "page-link";
+      btn.textContent = page;
+      btn.addEventListener("click", () => {
+        if (currentPage !== page) {
+          currentPage = page;
+          filterAndSortProducts();
+        }
+      });
+      li.appendChild(btn);
+      return li;
+    }
+
+    function createEllipsis() {
+      const li = document.createElement("li");
+      li.className = "page-item disabled";
+      const span = document.createElement("span");
+      span.className = "page-link";
+      span.textContent = "...";
+      li.appendChild(span);
+      return li;
+    }
+
+    const pages = [];
+
+    if (totalPages <= 7) {
+      for (let i = 1; i <= totalPages; i++) {
+        pages.push(i);
+      }
+    } else {
+      pages.push(1);
+
+      if (currentPage > 3) {
+        pages.push("ellipsis");
+      }
+
+      const start = Math.max(2, currentPage - 1);
+      const end = Math.min(totalPages - 1, currentPage + 1);
+
+      for (let i = start; i <= end; i++) {
+        pages.push(i);
+      }
+
+      if (currentPage < totalPages - 2) {
+        pages.push("ellipsis");
+      }
+
+      pages.push(totalPages);
+    }
+
+    pages.forEach((page) => {
+      if (page === "ellipsis") {
+        pagination.insertBefore(createEllipsis(), nextBtn);
+      } else {
+        pagination.insertBefore(createPageItem(page), nextBtn);
+      }
+    });
+  }
+
+  // Event listeners
+  document.getElementById("search-bar").addEventListener("input", () => {
+    currentPage = 1;
+    filterAndSortProducts();
+  });
+
+  document.getElementById("filter-dropdown").addEventListener("change", () => {
+    currentPage = 1;
+    filterAndSortProducts();
+  });
+
+  document.getElementById("sort-dropdown").addEventListener("change", () => {
+    currentPage = 1;
+    filterAndSortProducts();
+  });
+
+  document.getElementById("prevBtn").addEventListener("click", () => {
+    if (currentPage > 1) {
+      currentPage--;
+      filterAndSortProducts();
+    }
+  });
+
+  document.getElementById("nextBtn").addEventListener("click", () => {
+    let filteredProducts = [...products];
+
+    const filterCategory = document.getElementById("filter-dropdown").value;
+    const searchQuery = document
+      .getElementById("search-bar")
+      .value.toLowerCase();
+
+    if (filterCategory !== "Filter by Category") {
+      filteredProducts = filteredProducts.filter(
+        (p) => p.category === filterCategory
+      );
+    }
+
+    if (searchQuery) {
+      filteredProducts = filteredProducts.filter((p) =>
+        p.titleText.toLowerCase().includes(searchQuery)
+      );
+    }
+
+    const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
+    if (currentPage < totalPages) {
+      currentPage++;
+      filterAndSortProducts();
+    }
+  });
+
+  // Initial load
+  filterAndSortProducts();
 });
 
 // ---- CONTACT PAGE-------//

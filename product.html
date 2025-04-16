@@ -96,261 +96,63 @@
       </div>
     </section>
 
-    <!-- HOT DEALS SECTION -->
+    <!-- PRODUCTS-->
     <section id="featured" class="py-5">
       <div class="container">
-        <!-- Section Header -->
-        <div
-          class="d-flex justify-content-between align-items-center mb-4"
-          data-aos="fade"
-          data-aos-duration="2000"
-        >
-          <h2 class="kzn-section-heading">Hot Deals</h2>
-          <a href="product.html" class="btn kzn-btn-secondary">See More</a>
+        <!-- Heading -->
+        <h2 class="text-center my-5">Our Products</h2>
+
+        <!-- Search Bar and Filters -->
+        <div class="row mb-4">
+          <div class="col-12 col-md-6 mb-3 mb-md-0">
+            <input
+              type="text"
+              class="form-control"
+              id="search-bar"
+              placeholder="Search Products..."
+            />
+          </div>
+          <div class="col-12 col-md-3 mb-3 mb-md-0">
+            <!-- Filter Dropdown -->
+            <select class="form-select" id="filter-dropdown">
+              <option selected>Filter by Category</option>
+              <option value="kit">Kit</option>
+              <option value="rc-model">RC Model</option>
+              <option value="chassis">Chassis</option>
+              <option value="motor">Motor</option>
+              <option value="misc">Misc</option>
+            </select>
+          </div>
+          <div class="col-12 col-md-3">
+            <!-- Sort Dropdown -->
+            <select class="form-select" id="sort-dropdown">
+              <option selected>Sort by</option>
+              <option value="price-asc">Price: Low to High</option>
+              <option value="price-desc">Price: High to Low</option>
+              <option value="name-asc">Name: A-Z</option>
+              <option value="name-desc">Name: Z-A</option>
+            </select>
+          </div>
         </div>
+
+        <!-- Product Pagination -->
+        <nav aria-label="Product Pagination" class="product-pagination-wrapper">
+          <ul
+            class="pagination justify-content-center flex-wrap"
+            id="productPagination"
+          >
+            <li class="page-item" id="prevBtn" disabled>
+              <span class="page-link">Previous</span>
+            </li>
+            <!-- Dynamic pages inserted here -->
+            <li class="page-item" id="nextBtn" disabled>
+              <span class="page-link">Next</span>
+            </li>
+          </ul>
+        </nav>
 
         <!-- Product Grid -->
-        <div class="row" data-aos="fade">
-          <!-- Product 1 -->
-          <div class="col-6 col-sm-6 col-md-3 mb-4">
-            <div class="card position-relative h-100">
-              <span
-                class="badge bg-warning text-dark position-absolute top-0 start-0 m-2"
-                >Hot</span
-              >
-              <div class="card-img-wrapper">
-                <img
-                  src="https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg"
-                  class="card-img-top"
-                  alt="Product 1"
-                />
-              </div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title fw-bold mb-1">Shadow Blitzer</h5>
-                <p class="card-text small text-muted mb-2">
-                  <strong>58001</strong>
-                </p>
-                <p class="fw-bold mb-2">
-                  <span class="currency">&#8369;</span
-                  ><span class="price">3,987.15</span>
-                </p>
-                <a href="login.html" class="btn kzn-btn-black mt-auto"
-                  >Buy Now</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- Product 2 -->
-          <div class="col-6 col-sm-6 col-md-3 mb-4">
-            <div class="card position-relative h-100">
-              <span
-                class="badge bg-warning text-dark position-absolute top-0 start-0 m-2"
-                >Hot</span
-              >
-              <div class="card-img-wrapper">
-                <img
-                  src="https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/18640/18640_1.jpg"
-                  class="card-img-top"
-                  alt="Product 2"
-                />
-              </div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title fw-bold mb-1">Crimson Stalker</h5>
-                <p class="card-text small text-muted mb-2">
-                  <strong>58223</strong>
-                </p>
-                <p class="fw-bold mb-2">
-                  <span class="currency">&#8369;</span
-                  ><span class="price">4,844.43</span>
-                </p>
-                <a href="login.html" class="btn kzn-btn-black mt-auto"
-                  >Buy Now</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- Product 3 -->
-          <div class="col-6 col-sm-6 col-md-3 mb-4">
-            <div class="card position-relative h-100">
-              <span
-                class="badge bg-warning text-dark position-absolute top-0 start-0 m-2"
-                >Hot</span
-              >
-              <div class="card-img-wrapper">
-                <img
-                  src="https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58742/58742_1.jpg"
-                  class="card-img-top"
-                  alt="Product 3"
-                />
-              </div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title fw-bold mb-1">Aero Drifter</h5>
-                <p class="card-text small text-muted mb-2">
-                  <strong>58441</strong>
-                </p>
-                <p class="fw-bold mb-2">
-                  <span class="currency">&#8369;</span
-                  ><span class="price">3,334.50</span>
-                </p>
-                <a href="login.html" class="btn kzn-btn-black mt-auto"
-                  >Buy Now</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- Product 4 -->
-          <div class="col-6 col-sm-6 col-md-3 mb-4">
-            <div class="card position-relative h-100">
-              <span
-                class="badge bg-warning text-dark position-absolute top-0 start-0 m-2"
-                >Hot</span
-              >
-              <div class="card-img-wrapper">
-                <img
-                  src="https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58744/58744_1.jpg"
-                  class="card-img-top"
-                  alt="Product 4"
-                />
-              </div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title fw-bold mb-1">Vortex Phantom</h5>
-                <p class="card-text small text-muted mb-2">
-                  <strong>70325</strong>
-                </p>
-                <p class="fw-bold mb-2">
-                  <span class="currency">&#8369;</span
-                  ><span class="price">4,234.25</span>
-                </p>
-                <a href="login.html" class="btn kzn-btn-black mt-auto"
-                  >Buy Now</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- Product 5 -->
-          <div class="col-6 col-sm-6 col-md-3 mb-4">
-            <div class="card position-relative h-100">
-              <span
-                class="badge bg-warning text-dark position-absolute top-0 start-0 m-2"
-                >Hot</span
-              >
-              <div class="card-img-wrapper">
-                <img
-                  src="https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47508/47508_1.jpg"
-                  class="card-img-top"
-                  alt="Product 5"
-                />
-              </div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title fw-bold mb-1">Uncensored Reaper</h5>
-                <p class="card-text small text-muted mb-2">
-                  <strong>35250</strong>
-                </p>
-                <p class="fw-bold mb-2">
-                  <span class="currency">&#8369;</span
-                  ><span class="price">5,266.80</span>
-                </p>
-                <a href="login.html" class="btn kzn-btn-black mt-auto"
-                  >Buy Now</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- Product 6 -->
-          <div class="col-6 col-sm-6 col-md-3 mb-4">
-            <div class="card position-relative h-100">
-              <span
-                class="badge bg-warning text-dark position-absolute top-0 start-0 m-2"
-                >Hot</span
-              >
-              <div class="card-img-wrapper">
-                <img
-                  src="https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58740/58740_1.jpg"
-                  class="card-img-top"
-                  alt="Product 6"
-                />
-              </div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title fw-bold mb-1">Stormbreaker Elite</h5>
-                <p class="card-text small text-muted mb-2">
-                  <strong>20079</strong>
-                </p>
-                <p class="fw-bold mb-2">
-                  <span class="currency">&#8369;</span
-                  ><span class="price">4,503.00</span>
-                </p>
-                <a href="login.html" class="btn kzn-btn-black mt-auto"
-                  >Buy Now</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- Product 7 -->
-          <div class="col-6 col-sm-6 col-md-3 mb-4">
-            <div class="card position-relative h-100">
-              <span
-                class="badge bg-warning text-dark position-absolute top-0 start-0 m-2"
-                >Hot</span
-              >
-              <div class="card-img-wrapper">
-                <img
-                  src="https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18105/18105_1.jpg"
-                  class="card-img-top"
-                  alt="Product 7"
-                />
-              </div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title fw-bold mb-1">Tempest Stryker</h5>
-                <p class="card-text small text-muted mb-2">
-                  <strong>74079</strong>
-                </p>
-                <p class="fw-bold mb-2">
-                  <span class="currency">&#8369;</span
-                  ><span class="price">3,921.60</span>
-                </p>
-                <a href="login.html" class="btn kzn-btn-black mt-auto"
-                  >Buy Now</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- Product 8 -->
-          <div class="col-6 col-sm-6 col-md-3 mb-4">
-            <div class="card position-relative h-100">
-              <span
-                class="badge bg-warning text-dark position-absolute top-0 start-0 m-2"
-                >Hot</span
-              >
-              <div class="card-img-wrapper">
-                <img
-                  src="https://www.tamiya.com/cms/img/usr/item/9/95650/95650_s.jpg"
-                  class="card-img-top"
-                  alt="Product 8"
-                />
-              </div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title fw-bold mb-1">Nightmare Warden</h5>
-                <p class="card-text small text-muted mb-2">
-                  <strong>18539</strong>
-                </p>
-                <p class="fw-bold mb-2">
-                  <span class="currency">&#8369;</span
-                  ><span class="price">4,988.90</span>
-                </p>
-                <a href="login.html" class="btn kzn-btn-black mt-auto"
-                  >Buy Now</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
+        <div id="product-container" class="row"></div>
       </div>
     </section>
 
@@ -592,6 +394,6 @@
     <!-- Bootstrap Bundle JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
   </body>
 </html>
