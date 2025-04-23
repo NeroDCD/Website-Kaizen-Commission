@@ -411,7 +411,7 @@ document.addEventListener("DOMContentLoaded", function () {
       category: "HG"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "620 Ball Bearing Set (2pcs.)",
       price: "450",
       category: "HG"
@@ -579,7 +579,7 @@ document.addEventListener("DOMContentLoaded", function () {
       category: "Kits"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "HG Carbon Rear Brake Stay (1.5mm) J-CUP 2021",
       price: "890",
       category: "Kits"
@@ -620,7 +620,7 @@ document.addEventListener("DOMContentLoaded", function () {
       category: "Motor"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "HG Carbon Reinforcing Plate for Super X Chassis (1.5mm)",
       price: "990",
       category: "Rollers"
@@ -633,7 +633,7 @@ document.addEventListener("DOMContentLoaded", function () {
       category: "Rollers"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "HG Carbon Side Stay for AR Chassis (1.5mm)",
       price: "1,400",
       category: "Rollers"
@@ -674,13 +674,13 @@ document.addEventListener("DOMContentLoaded", function () {
       category: "Others"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "Jr Classic Tune-Up Parts Set Vol.3",
       price: "550",
       category: "Others"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "Kato Uni Cleaner",
       price: "300",
       category: "Others"
@@ -700,7 +700,7 @@ document.addEventListener("DOMContentLoaded", function () {
       category: "Others"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "Lightweight Double Aluminum Rollers (13-12mm/Black)",
       price: "1,200",
       category: "Others"
@@ -713,7 +713,7 @@ document.addEventListener("DOMContentLoaded", function () {
       category: "Others"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "Lightweight Special Gearing (For Super FM/TZ Chassis)",
       price: "185",
       category: "Others"
@@ -726,31 +726,31 @@ document.addEventListener("DOMContentLoaded", function () {
       category: "Others"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "MA Chassis (Blue)",
       price: "300",
       category: "Others"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "MA Chassis (Pink)",
       price: "300",
       category: "Others"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "MA Chassis (White)",
       price: "300",
       category: "Others"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "MA Internals (Pink)",
       price: "300",
       category: "Others"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "MA Internals (White)",
       price: "300",
       category: "Others"
@@ -791,7 +791,7 @@ document.addEventListener("DOMContentLoaded", function () {
       category: "Others"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "Mini 4WD 2mm Lock Nut (10pcs.)",
       price: "185",
       category: "Others"
@@ -818,13 +818,13 @@ document.addEventListener("DOMContentLoaded", function () {
       category: "Others"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "Mini 4WD G-13 Gear (Pink/10pcs.)",
       price: "100",
       category: "Others"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "Mini 4WD G2 Gear (Orange/10pcs.)",
       price: "100",
       category: "Others"
@@ -879,7 +879,7 @@ document.addEventListener("DOMContentLoaded", function () {
       category: "Others"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "Mini 4WD Pro G-22 Gear (Pink/10pcs.)",
       price: "125",
       category: "Others"
@@ -906,7 +906,7 @@ document.addEventListener("DOMContentLoaded", function () {
       category: "Others"
     },
     {
-      imageSrc: "/Assets/no-image.jpg",
+      imageSrc: "https://uptownprinters.ca/assets/no_image_placeholder.png",
       titleText: "NeoChamp",
       price: "450",
       category: "Others"
