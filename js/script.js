@@ -906,7 +906,7 @@ document.addEventListener("DOMContentLoaded", function () {
       category: "Others"
     },
     {
-      imageSrc: "../Assets/no-image.jpg",
+      imageSrc: "/Assets/no-image.jpg",
       titleText: "NeoChamp",
       price: "450",
       category: "Others"
