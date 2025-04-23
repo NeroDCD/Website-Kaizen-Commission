@@ -431,127 +431,149 @@ document.addEventListener("DOMContentLoaded", function () {
       category: "HG"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/19437/19437_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/19437/19437_1.jpg",
       titleText: "Bergkaiser Premium (Super-II Chassis)",
       price: "600",
       category: "Kits"
     },
     {
-      imageSrc: "https://www.tamiyausa.com/media/CACHE/images/products/jr-brake-sponge-set-2-123mm-red-3-1f66/321f76c7bb0b9d016fae5f0a246596ba.jpg",
+      imageSrc:
+        "https://www.tamiyausa.com/media/CACHE/images/products/jr-brake-sponge-set-2-123mm-red-3-1f66/321f76c7bb0b9d016fae5f0a246596ba.jpg",
       titleText: "Brake Sponge Set (1/2/3mm White)",
       price: "270",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15512/15512_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15512/15512_1.jpg",
       titleText: "Brake Sponge Set (Mild, 1/2/3mm Blue)",
       price: "270",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15412/15412_1.jpg",
-      titleText: "Carbon Reinforced Rear Double Roller Stay (3 Attachment Points)",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15412/15412_1.jpg",
+      titleText:
+        "Carbon Reinforced Rear Double Roller Stay (3 Attachment Points)",
       price: "285",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/9/95239/95239_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/9/95239/95239_1.jpg",
       titleText: "Carbon Reinforced Super FM Chassis Set",
       price: "300",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18715/18715_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18715/18715_1.jpg",
       titleText: "Copper Fang (FM-A)",
       price: "600",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/19440/19440_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/19440/19440_1.jpg",
       titleText: "Cyclone Magnum Premium (AR Chassis)",
       price: "598",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/18074/18074_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/18074/18074_1.jpg",
       titleText: "Dash-X1 Proto Emperor",
       price: "550",
       category: "Kits"
     },
     {
-      imageSrc: "https://www.tamiyausa.com/media/CACHE/images/products/jr-dcr-01-clear-blue-special-ma-chassis-1-9b36/3275b4df9290d8893bb2a36bd938603a.jpg",
+      imageSrc:
+        "https://www.tamiyausa.com/media/CACHE/images/products/jr-dcr-01-clear-blue-special-ma-chassis-1-9b36/3275b4df9290d8893bb2a36bd938603a.jpg",
       titleText: "DCR-01 Clear Blue Special (MA Chassis)",
       price: "3,000",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15398/15398_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15398/15398_1.jpg",
       titleText: "Double Aluminum Rollers (13-12mm)",
       price: "550",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18096/18096_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18096/18096_1.jpg",
       titleText: "Dual Ridge Jr. (VZ Chassis)",
       price: "698",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15400/15400_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15400/15400_1.jpg",
       titleText: "Fluorine Coated Gear Shaft (Ribbed, 2pcs.)",
       price: "125",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15390/15390_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15390/15390_1.jpg",
       titleText: "Fluorine Coated Gear Shaft (Straight, 2pcs.)",
       price: "100",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15150/15150_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15150/15150_1.jpg",
       titleText: "FRP Mount Plate Set",
       price: "150",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15242/15242_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15242/15242_1.jpg",
       titleText: "FRP Plate for Super X Chassis",
       price: "150",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15046/15046_1.jpg",
-      titleText: "Gold Plated Terminal \"B\"",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15046/15046_1.jpg",
+      titleText: 'Gold Plated Terminal "B"',
       price: "250",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/15360/15360_1s.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/15360/15360_1s.jpg",
       titleText: "Gold Plated Terminal Set (for MS Chassis)",
       price: "200",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/19453/19453_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/19453/19453_1.jpg",
       titleText: "Greatmagnum R (FM-A Chassis)",
       price: "600",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/9/95583/95583_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/9/95583/95583_1.jpg",
       titleText: "HG 19mm Aluminum Ball-Race Rollers (Ringless)",
       price: "550",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/9/95674/95674_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/9/95674/95674_1.jpg",
       titleText: "HG Carbon Front Stay (1.5mm/Silver)",
       price: "550",
       category: "Kits"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/9/95166/95166_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/9/95166/95166_1.jpg",
       titleText: "HG Carbon Multi Roller Setting Stay (1.5mm) J-CUP 2024",
       price: "550",
       category: "Kits"
@@ -563,31 +585,36 @@ document.addEventListener("DOMContentLoaded", function () {
       category: "Kits"
     },
     {
-      imageSrc: "https://i0.wp.com/m4dtang.com/wp-content/uploads/2025/02/92457.jpg?fit=859%2C573&ssl=1",
+      imageSrc:
+        "https://i0.wp.com/m4dtang.com/wp-content/uploads/2025/02/92457.jpg?fit=859%2C573&ssl=1",
       titleText: "HG Carbon Rear Brake Stay (1.5mm) Tamiya Korea 30th Anniv",
       price: "1,200",
       category: "Motor"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/9/95675/95675_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/9/95675/95675_1.jpg",
       titleText: "HG Carbon Rear Break Stay (1.5mm/Silver)",
       price: "550",
       category: "Motor"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/9/95167/95167_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/9/95167/95167_1.jpg",
       titleText: "HG Carbon Rear Multi Roller Setting Stay (1.5mm) J-CUP 2024",
       price: "550",
       category: "Motor"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/9/95259/95259_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/9/95259/95259_1.jpg",
       titleText: "HG Carbon Rear Stay (3mm)",
       price: "600",
       category: "Motor"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15497/15497_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15497/15497_1.jpg",
       titleText: "HG Carbon Reinforcing Plate for 13/19mm Roller (1.5mm)",
       price: "498",
       category: "Motor"
@@ -599,7 +626,8 @@ document.addEventListener("DOMContentLoaded", function () {
       category: "Rollers"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15495/15495_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15495/15495_1.jpg",
       titleText: "HG Carbon Reinforcing Plate Set (1.5mm)",
       price: "498",
       category: "Rollers"
@@ -611,30 +639,408 @@ document.addEventListener("DOMContentLoaded", function () {
       category: "Rollers"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15519/15519_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15519/15519_1.jpg",
       titleText: "HG Round Hole Ball Bearings (4 Pcs.)",
       price: "695",
       category: "Rollers"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15471/15471_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15471/15471_1.jpg",
       titleText: "HG Sliding Damper Grease Set",
       price: "300",
       category: "Wheels"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/15528/15528_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/15528/15528_1.jpg",
       titleText: "Hi-Mount Tube Stabilizer Set (Black)",
       price: "150",
       category: "Wheels"
     },
     {
-      imageSrc: "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15236/15236_1.jpg",
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15236/15236_1.jpg",
       titleText: "High Speed Counter Gear Set",
       price: "185",
       category: "Wheels"
     },
-         
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15477/15477_1.jpg",
+      titleText: "Hyper Dash 3",
+      price: "220",
+      category: "Others"
+    },
+    {
+      imageSrc: "../Assets/no-image.jpg",
+      titleText: "Jr Classic Tune-Up Parts Set Vol.3",
+      price: "550",
+      category: "Others"
+    },
+    {
+      imageSrc: "../Assets/no-image.jpg",
+      titleText: "Kato Uni Cleaner",
+      price: "300",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/18082/18082_1.jpg",
+      titleText: "Kopen Future Included XMZ (Super-II Chassis)",
+      price: "600",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15455/15455_1.jpg",
+      titleText: "Light-Dash Motor",
+      price: "220",
+      category: "Others"
+    },
+    {
+      imageSrc: "../Assets/no-image.jpg",
+      titleText: "Lightweight Double Aluminum Rollers (13-12mm/Black)",
+      price: "1,200",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15506/15506_1.jpg",
+      titleText: "Lightweight Plastic Spacer Set (12/6.7/6/3/1.5mm)",
+      price: "125",
+      category: "Others"
+    },
+    {
+      imageSrc: "../Assets/no-image.jpg",
+      titleText: "Lightweight Special Gearing (For Super FM/TZ Chassis)",
+      price: "185",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15457/15457_1.jpg",
+      titleText: "Low Friction Plastic Double Rollers (Red & Blue / 13-12mm)",
+      price: "150",
+      category: "Others"
+    },
+    {
+      imageSrc: "../Assets/no-image.jpg",
+      titleText: "MA Chassis (Blue)",
+      price: "300",
+      category: "Others"
+    },
+    {
+      imageSrc: "../Assets/no-image.jpg",
+      titleText: "MA Chassis (Pink)",
+      price: "300",
+      category: "Others"
+    },
+    {
+      imageSrc: "../Assets/no-image.jpg",
+      titleText: "MA Chassis (White)",
+      price: "300",
+      category: "Others"
+    },
+    {
+      imageSrc: "../Assets/no-image.jpg",
+      titleText: "MA Internals (Pink)",
+      price: "300",
+      category: "Others"
+    },
+    {
+      imageSrc: "../Assets/no-image.jpg",
+      titleText: "MA Internals (White)",
+      price: "300",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://www.rcmart.com/image/cache/product/00134947/00134947-tamiya-92451-000-1000x1000.jpg",
+      titleText: "Mach Frame Fighting Korea Edition V2",
+      price: "2,000",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15433/15433_1.jpg",
+      titleText: "Mach-Dash Motor Pro",
+      price: "220",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15401/15401_s.jpg",
+      titleText: "Mass Damper Set (Heavy)",
+      price: "220",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/71108/71108_1.jpg",
+      titleText: "Mechanical Rabbit (Hopping Type)",
+      price: "600",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/71112/71112_1.jpg",
+      titleText: "Mechanical Racehorse",
+      price: "698",
+      category: "Others"
+    },
+    {
+      imageSrc: "../Assets/no-image.jpg",
+      titleText: "Mini 4WD 2mm Lock Nut (10pcs.)",
+      price: "185",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/10309/10309_1.jpg",
+      titleText: "Mini 4WD 2mm Washer (Small, 20pcs.)",
+      price: "120",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/9/95383/95383_1.jpg",
+      titleText: "Mini 4WD Car Catcher (Black)",
+      price: "300",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18090/18090_1.jpg",
+      titleText: "Mini 4WD Cat Racer",
+      price: "600",
+      category: "Others"
+    },
+    {
+      imageSrc: "../Assets/no-image.jpg",
+      titleText: "Mini 4WD G-13 Gear (Pink/10pcs.)",
+      price: "100",
+      category: "Others"
+    },
+    {
+      imageSrc: "../Assets/no-image.jpg",
+      titleText: "Mini 4WD G2 Gear (Orange/10pcs.)",
+      price: "100",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18102/18102_1.jpg",
+      titleText: "Mini 4WD Lupine Racer 2",
+      price: "600",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15505/15505_1.jpg",
+      titleText: "Mini 4WD Motor Case 2",
+      price: "250",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15463/15463_1.jpg",
+      titleText: "Mini 4WD Multipurpose Tape (10mm Width/Blue)",
+      price: "220",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/9/95656/95656_1.jpg",
+      titleText: "Mini 4WD Oval Home Circuit",
+      price: "2,500",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18089/18089_1.jpg",
+      titleText: "Mini 4WD Pig Racer",
+      price: "600",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15422/15422_1.jpg",
+      titleText: "Mini 4WD Pinion Puller (Blue)",
+      price: "1,000",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15424/15424_1.jpg",
+      titleText: "Mini 4WD Portable Pit",
+      price: "1,850",
+      category: "Others"
+    },
+    {
+      imageSrc: "../Assets/no-image.jpg",
+      titleText: "Mini 4WD Pro G-22 Gear (Pink/10pcs.)",
+      price: "125",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/10320/10320_1.jpg",
+      titleText: "Mini 4WD Rubber Tubing 3.5x60mm(5pcs.)",
+      price: "80",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/18083/18083_1.jpg",
+      titleText: "Mini 4WD Shirokumakko",
+      price: "600",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/9/95667/info/95667_1.jpg",
+      titleText: "Multipurpose Tape (15mm Width/Black & Pink)",
+      price: "500",
+      category: "Others"
+    },
+    {
+      imageSrc: "../Assets/no-image.jpg",
+      titleText: "NeoChamp",
+      price: "450",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/15317/15317_1.jpg",
+      titleText: "Power-Dash Motor",
+      price: "220",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18713/18713_01.jpg",
+      titleText: "Razorback (FM-A Chassis)",
+      price: "598",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15459/15459_1.jpg",
+      titleText: "Side Mass Damper Set (for AR Chassis)",
+      price: "380",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15490/15490_1.jpg",
+      titleText: "Side Mass Damper Set (for MA Chassis)",
+      price: "380",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/18645/18645_1.jpg",
+      titleText: "Silwolf (MA Chassis)",
+      price: "600",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15501/15501_1.jpg",
+      titleText: "Slimline Mass Damper Set",
+      price: "250",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15415/15415_1.jpg",
+      titleText: "Small Dia. Carbon Wheel & White Arched Tires",
+      price: "250",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/15534/15534_1.jpg",
+      titleText:
+        "Small Dia. Low Friction Low-Profile Tires (26mm) & Carbon (Fin)",
+      price: "250",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/15541/15541_1.jpg",
+      titleText:
+        "Small DIA. Low Friction Narrow Tires & Carbon Wheels (3-Spoke)",
+      price: "350",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/19450/19450_1.jpg",
+      titleText: "Spin Cobra Premium (Super-II Chassis)",
+      price: "600",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/15318/15318_1.jpg",
+      titleText: "Sprint-Dash Motor",
+      price: "220",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/15510/15510_1.jpg",
+      titleText: "Stainless Steel Countersunk Screw Set (10/12/20/25/30mm)",
+      price: "185",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/15527/15527_1.jpg",
+      titleText: "Stainless Steel Countersunk Screw Set (6/8/15mm)",
+      price: "185",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18101/18101_1_03.jpg",
+      titleText: "Super Avante Jr. (VZ Chassis)",
+      price: "650",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/18065/18065_1.jpg",
+      titleText: "Super Avante RS (Super-II Chassis)",
+      price: "600",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/15542/15542_1.jpg",
+      titleText:
+        "Super Hard Small Dia. Low-Profile Tires (26mm) & Carbon (Y Spoke)",
+      price: "250",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/1/18620/18620_1.jpg",
+      titleText: "Thunder Shot Mk.II - Mini 4WD Pro Series (MS Chassis)",
+      price: "598",
+      category: "Others"
+    },
+    {
+      imageSrc:
+        "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/1/18652/18652_1.jpg",
+      titleText:
+        "Toyota Gazoo Racing TS050 Hybrid (MA Chassis) (Polycarb Body)",
+      price: "795",
+      category: "Others"
+    }
   ];
 
   const productsPerPage = 12;
